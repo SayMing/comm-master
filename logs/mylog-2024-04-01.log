@@ -1,0 +1,92 @@
+2024-04-01 13:20:35.975 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-01 13:20:35.986 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:11
+2024-04-01 13:20:37.344 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1359
+2024-04-01 13:20:37.592 [pool-3-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-01 13:20:37.721 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-01 13:20:37.897 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:553
+2024-04-01 13:20:37.897 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-01 13:54:52.295 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-01 13:54:52.306 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:13
+2024-04-01 13:54:53.994 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1689
+2024-04-01 13:54:54.528 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:534
+2024-04-01 13:54:54.529 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-01 13:55:00.281 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-01 13:55:00.604 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-01 13:55:44.908 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
+2024-04-01 13:55:57.652 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:2 obu code:01
+2024-04-01 13:57:18.813 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - sendBodyBuilder:55AA03020100
+2024-04-01 13:59:19.842 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
+2024-04-01 13:59:22.612 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:3 obu code:01
+2024-04-01 14:00:16.196 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - sendBodyBuilder:55AA03030100
+2024-04-01 14:09:45.890 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-01 14:09:45.900 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:11
+2024-04-01 14:09:47.459 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1560
+2024-04-01 14:09:47.865 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-01 14:09:48.138 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-01 14:09:48.232 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:773
+2024-04-01 14:09:48.233 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:1
+2024-04-01 14:09:53.413 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
+2024-04-01 14:10:00.026 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:4 obu code:0001
+2024-04-01 14:10:21.780 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - sendBodyBuilder:55AA0304010000
+2024-04-01 14:12:35.793 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-01 14:12:35.798 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:5
+2024-04-01 14:12:37.327 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1530
+2024-04-01 14:12:37.527 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-01 14:12:37.761 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-01 14:12:37.936 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:609
+2024-04-01 14:12:37.937 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:1
+2024-04-01 14:12:56.209 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
+2024-04-01 14:12:56.373 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:5 obu code:0001
+2024-04-01 14:12:56.374 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - sendBodyBuilder:55AA0305010000
+2024-04-01 14:13:13.822 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
+2024-04-01 14:13:13.979 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:6 obu code:0001
+2024-04-01 14:13:13.979 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - sendBodyBuilder:55AA0306010000
+2024-04-01 14:18:16.414 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-01 14:18:16.418 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:9
+2024-04-01 14:18:17.939 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1522
+2024-04-01 14:18:18.192 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-01 14:18:18.360 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-01 14:18:18.522 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:583
+2024-04-01 14:18:18.524 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:2
+2024-04-01 14:18:24.997 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
+2024-04-01 14:18:25.124 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:7 obu code:0001
+2024-04-01 14:18:25.125 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - sendBodyBuilder:55AA0307010000
+2024-04-01 14:19:59.656 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-01 14:19:59.663 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:7
+2024-04-01 14:20:01.378 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1716
+2024-04-01 14:20:01.667 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-01 14:20:01.792 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-01 14:20:01.928 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:550
+2024-04-01 14:20:01.928 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-01 14:20:08.665 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
+2024-04-01 14:20:08.828 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:8 obu code:0001
+2024-04-01 14:20:08.828 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - sendBodyBuilder:55AA0308010000
+2024-04-01 14:20:20.207 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
+2024-04-01 14:20:20.303 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:9 obu code:0001
+2024-04-01 14:20:20.303 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - sendBodyBuilder:55AA0309010000
+2024-04-01 20:36:48.520 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-01 20:36:48.552 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:44
+2024-04-01 20:36:52.737 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:4186
+2024-04-01 20:36:53.367 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-01 20:36:53.868 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-01 20:36:54.240 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:1503
+2024-04-01 20:36:54.240 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-01 20:37:04.983 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA050100000000000000202020202020202064000000
+2024-04-01 20:37:04.985 [Thread-6] ERROR c.y.s.manager.SerialPortHandler - check crc16 failed. sumCrc16:9225 requestCrc16:0000
+2024-04-01 20:41:30.766 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "0", workTimeStart" : "00:00", workTimeEnd" : "00:00", driverName" : "        ", driverCode" : "100}
+2024-04-01 20:42:30.034 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA050100000000000000202020202020202064000000
+2024-04-01 20:42:30.035 [Thread-6] ERROR c.y.s.manager.SerialPortHandler - check crc16 failed. sumCrc16:9225 requestCrc16:0000
+2024-04-01 20:42:38.210 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "0", workTimeStart" : "00:00", workTimeEnd" : "00:00", driverName" : "", driverCode" : "100}
+2024-04-01 22:51:58.388 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-01 22:51:58.403 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:15
+2024-04-01 22:52:02.106 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:3704
+2024-04-01 22:52:02.675 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-01 22:52:03.659 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-01 22:52:03.938 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:1832
+2024-04-01 22:52:03.938 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-01 22:52:22.388 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010001010001202020202020202020202031C3D6BBCE919F
+2024-04-01 22:53:20.086 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1 type:1 location:位置1           
+2024-04-01 22:54:13.587 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - send sync beacon list result body:55AA09010001919F
+2024-04-01 23:09:21.073 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010001010001202020202020202020202031C3D6BBCE919F
+2024-04-01 23:09:31.597 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1 type:1 location:位置1           
+2024-04-01 23:09:47.572 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - send sync beacon list result body:55AA09010001919F

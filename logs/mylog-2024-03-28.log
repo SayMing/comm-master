@@ -1,0 +1,44 @@
+2024-03-28 18:18:43.237 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 18:18:44.170 [AWT-EventQueue-0] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 18:26:00.789 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 18:26:00.956 [AWT-EventQueue-0] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 18:27:09.624 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 18:27:09.804 [AWT-EventQueue-0] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 18:28:01.722 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 18:28:01.872 [AWT-EventQueue-0] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 18:30:34.208 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 18:30:34.403 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 18:31:22.543 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 18:31:22.730 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 19:48:59.626 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 19:48:59.824 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 19:51:48.674 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 19:51:48.865 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 19:56:37.289 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 19:56:37.490 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 19:58:18.581 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 19:58:18.760 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 20:08:35.383 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 20:08:35.560 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 20:09:43.723 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 20:09:43.905 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 20:11:00.599 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 20:11:00.777 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 20:11:27.906 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 20:11:28.122 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 20:19:45.563 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 20:19:46.394 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 20:27:11.760 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-03-28 20:27:11.879 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:120
+2024-03-28 20:27:11.888 [AWT-EventQueue-0] INFO  com.yang.serialport.ui.CarMainFrame - main start run:10
+2024-03-28 20:27:13.123 [AWT-EventQueue-0] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1235
+2024-03-28 20:27:13.337 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 20:27:13.504 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 20:27:13.669 [AWT-EventQueue-0] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:546
+2024-03-28 20:27:44.768 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-03-28 20:27:44.772 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:5
+2024-03-28 20:27:45.961 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1190
+2024-03-28 20:27:46.153 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-28 20:27:46.299 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-28 20:27:46.418 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:457
+2024-03-28 20:27:46.418 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0

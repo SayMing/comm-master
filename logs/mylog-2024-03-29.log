@@ -1,0 +1,40 @@
+2024-03-29 13:18:44.316 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-29 13:18:44.507 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-29 13:42:03.921 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-03-29 13:42:03.930 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:9
+2024-03-29 13:42:05.572 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1644
+2024-03-29 13:42:05.789 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-29 13:42:05.922 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-29 13:42:06.088 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:516
+2024-03-29 13:42:06.112 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:24
+2024-03-29 14:22:54.871 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-03-29 14:22:54.885 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:13
+2024-03-29 14:22:56.131 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1248
+2024-03-29 14:22:56.344 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-29 14:22:56.480 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-29 14:22:56.600 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:469
+2024-03-29 14:22:56.600 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-03-29 14:24:49.318 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:687474703A2F2F7777772E636D736F66742E636E58
+2024-03-29 14:24:49.319 [Thread-6] ERROR c.y.s.manager.SerialPortHandler - check crc16 failed. sumCrc16:FA71 requestCrc16:6E58
+2024-03-29 14:30:05.032 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:3535414130333031303130303032303130304143364638393635303230304538364638393635343335410E
+2024-03-29 14:30:05.033 [Thread-6] ERROR c.y.s.manager.SerialPortHandler - check crc16 failed. sumCrc16:27CB requestCrc16:410E
+2024-03-29 14:30:12.825 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA03010100020100AC6F89650200E86F8965435AA0
+2024-03-29 14:30:12.827 [Thread-6] ERROR c.y.s.manager.SerialPortHandler - check crc16 failed. sumCrc16:5A00 requestCrc16:5AA0
+2024-03-29 14:30:43.681 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA03010100020100AC6F89650200E86F8965435AA0
+2024-03-29 14:30:43.682 [Thread-6] ERROR c.y.s.manager.SerialPortHandler - check crc16 failed. sumCrc16:5A00 requestCrc16:5AA0
+2024-03-29 14:31:01.218 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA03010100020100AC6F89650200E86F8965435AA0
+2024-03-29 14:31:01.219 [Thread-6] ERROR c.y.s.manager.SerialPortHandler - check crc16 failed. sumCrc16:5A00 requestCrc16:5AA0
+2024-03-29 14:31:24.866 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA03010100020100AC6F89650200E86F8965435A
+2024-03-29 14:31:27.807 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA03010100020100AC6F89650200E86F8965435A
+2024-03-29 14:31:28.786 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA03010100020100AC6F89650200E86F8965435A
+2024-03-29 14:32:13.494 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA03010100020100AC6F89650200E86F8965435A
+2024-03-29 14:32:18.023 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA03010100020100AC6F89650200E86F8965435A
+2024-03-29 14:32:22.004 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:353541413033303130313030303230313030616336663839363530323030653836663839363534333541
+2024-03-29 14:32:22.005 [Thread-6] ERROR c.y.s.manager.SerialPortHandler - check crc16 failed. sumCrc16:81B1 requestCrc16:3541
+2024-03-29 16:54:53.567 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-03-29 16:54:53.571 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:5
+2024-03-29 16:54:54.707 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1137
+2024-03-29 16:54:54.925 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-03-29 16:54:55.047 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-03-29 16:54:55.166 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:459
+2024-03-29 16:54:55.166 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
