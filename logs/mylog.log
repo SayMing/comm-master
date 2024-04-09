@@ -1,149 +1,56 @@
-2024-04-07 12:43:17.798 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
-2024-04-07 12:43:19.977 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
-2024-04-07 12:43:20.319 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:2521
-2024-04-07 12:43:20.704 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:386
-2024-04-07 12:43:20.715 [pool-3-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
-2024-04-07 12:43:21.450 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
-2024-04-07 12:43:22.083 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:1379
-2024-04-07 12:43:22.083 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
-2024-04-07 12:43:26.895 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
-2024-04-07 12:43:26.896 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
-2024-04-07 12:43:27.051 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
-2024-04-07 12:43:27.057 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1028 current code=1007 time=1712465007
-2024-04-07 12:43:28.093 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0104045B17
-2024-04-07 12:43:28.095 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1028 time=1712465008
-2024-04-07 12:43:29.941 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
-2024-04-07 12:43:30.052 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[BeaconLog : {"id" : "7", code" : "1007", createTime" : "1712465007", sourceData" : "55AA01EF035425", status" : "null", requestId" : "null", beaconType" : "1}, BeaconLog : {"id" : "8", code" : "1028", createTime" : "1712465008", sourceData" : "55AA0104045B17", status" : "null", requestId" : "null", beaconType" : "2}] requestId:150 obu code:0001
-2024-04-07 12:43:30.055 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA0396010002EF036F2412660404702412664097
-2024-04-07 12:43:58.085 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04960100F48A
-2024-04-07 12:43:58.175 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:150
-2024-04-07 12:44:02.494 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 12:44:02.501 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1007 type:1 location:3号矿脉         
-2024-04-07 12:44:02.503 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1028 type:2 location:42#溜井口       
-2024-04-07 12:44:02.503 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:33 type:1 location:333             
-2024-04-07 12:44:02.504 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - send sync beacon list result body:55AA090100039966
-2024-04-07 12:44:02.504 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100039966A821
-2024-04-07 12:46:05.927 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
-2024-04-07 12:46:06.124 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:151 obu code:0001
-2024-04-07 12:46:06.125 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA03970100003FBB
-2024-04-07 12:49:21.854 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 12:49:21.855 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1007 type:1 location:3号矿脉         
-2024-04-07 12:49:21.856 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1028 type:2 location:42#溜井口       
-2024-04-07 12:49:21.857 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:33 type:1 location:333             
-2024-04-07 12:49:21.857 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - send sync beacon list result body:55AA090100039966
-2024-04-07 12:49:21.857 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100039966A821
-2024-04-07 12:51:03.117 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
-2024-04-07 12:51:03.214 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:152 obu code:0001
-2024-04-07 12:51:03.214 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA03980100003CAF
-2024-04-07 12:51:53.287 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 12:51:53.288 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1007 type:1 location:3号矿脉         
-2024-04-07 12:51:53.290 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1028 type:2 location:42#溜井口       
-2024-04-07 12:51:53.291 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:33 type:1 location:333             
-2024-04-07 12:51:53.291 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - send sync beacon list result body:55AA090100039966
-2024-04-07 12:51:53.291 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100039966A821
-2024-04-07 12:59:14.478 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
-2024-04-07 12:59:14.657 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:153 obu code:0001
-2024-04-07 12:59:14.658 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA03990100003D53
-2024-04-07 12:59:39.930 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04990100C489
-2024-04-07 12:59:39.931 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:153
-2024-04-07 12:59:39.931 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 12:59:39.932 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:1
-2024-04-07 12:59:41.906 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04990100C489
-2024-04-07 12:59:41.909 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:153
-2024-04-07 12:59:41.912 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 12:59:41.915 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:1
-2024-04-07 12:59:42.569 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04990100C489
-2024-04-07 12:59:42.576 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:153
-2024-04-07 12:59:42.576 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 12:59:42.578 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:1
-2024-04-07 12:59:43.145 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04990100C489
-2024-04-07 12:59:43.146 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:153
-2024-04-07 12:59:43.146 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 12:59:43.147 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:1
-2024-04-07 12:59:43.612 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04990100C489
-2024-04-07 12:59:43.613 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:153
-2024-04-07 12:59:43.613 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 12:59:43.615 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:1
-2024-04-07 12:59:45.079 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04990100C489
-2024-04-07 12:59:45.080 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:153
-2024-04-07 12:59:45.081 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 12:59:45.082 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:1
-2024-04-07 13:00:07.751 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04990100C489
-2024-04-07 13:00:07.752 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:153
-2024-04-07 13:00:07.753 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 13:00:07.754 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:1
-2024-04-07 13:00:22.482 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 13:00:22.482 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1007 type:1 location:3号矿脉         
-2024-04-07 13:00:22.483 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1028 type:2 location:42#溜井口       
-2024-04-07 13:00:22.486 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:33 type:1 location:333             
-2024-04-07 13:00:22.490 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - send sync beacon list result body:55AA090100039966
-2024-04-07 13:00:22.491 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100039966A821
-2024-04-07 13:03:11.331 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
-2024-04-07 13:03:13.588 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
-2024-04-07 13:03:13.734 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:2411
-2024-04-07 13:03:13.969 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:235
-2024-04-07 13:03:13.978 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
-2024-04-07 13:03:15.230 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:1262
-2024-04-07 13:03:15.230 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
-2024-04-07 13:03:25.160 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
-2024-04-07 13:03:30.398 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
-2024-04-07 13:03:30.399 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
-2024-04-07 13:03:31.770 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
-2024-04-07 13:03:31.773 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1028 current code=1007 time=1712466211
-2024-04-07 13:03:38.248 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0104045B17
-2024-04-07 13:03:38.254 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1028 time=1712466218
-2024-04-07 13:03:43.252 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
-2024-04-07 13:03:43.437 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[BeaconLog : {"id" : "9", code" : "1007", createTime" : "1712466211", sourceData" : "55AA01EF035425", status" : "null", requestId" : "null", beaconType" : "1}, BeaconLog : {"id" : "10", code" : "1028", createTime" : "1712466218", sourceData" : "55AA0104045B17", status" : "null", requestId" : "null", beaconType" : "2}] requestId:154 obu code:0001
-2024-04-07 13:03:43.438 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA039A010002EF032329126604042A2912665CF2
-2024-04-07 13:04:17.363 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA049A01003489
-2024-04-07 13:04:17.465 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:154
-2024-04-07 13:04:25.571 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA08010003EF0301202020202020202020F6C2F3BFC5BA3304040220202020202020DABFAEBEEFC1233234210001202020202020202020202020203333339966
-2024-04-07 13:04:34.615 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1007 type:1 location:3号矿脉         
-2024-04-07 13:04:34.620 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1028 type:2 location:42#溜井口       
-2024-04-07 13:04:34.621 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:33 type:1 location:333             
-2024-04-07 13:04:36.086 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - send sync beacon list result body:55AA090100039966
-2024-04-07 13:04:36.087 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100039966A821
-2024-04-07 13:05:22.847 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
-2024-04-07 13:05:22.930 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[] requestId:155 obu code:0001
-2024-04-07 13:05:22.930 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA039B0100003CEB
-2024-04-07 13:05:55.715 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA049B01006549
-2024-04-07 13:05:55.716 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:155
-2024-04-07 13:07:28.728 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0501000200000000002020202020202020000000001233
-2024-04-07 13:07:47.721 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "2", workTimeType" : "0", workTimeStart" : "00:00", workTimeEnd" : "00:00", driverName" : "", driverCode" : "0}
-2024-04-07 13:07:53.110 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA06010000000000000000001B2A
-2024-04-07 14:38:14.182 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
-2024-04-07 14:38:15.708 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
-2024-04-07 14:38:15.882 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1700
-2024-04-07 14:38:16.161 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:280
-2024-04-07 14:38:16.183 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
-2024-04-07 14:38:17.129 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:968
-2024-04-07 14:38:17.129 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
-2024-04-07 14:38:25.122 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
-2024-04-07 14:38:30.345 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
-2024-04-07 14:38:30.347 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
-2024-04-07 14:38:47.559 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0501000201080110002020FABBBECBEEC0C3220000B152
-2024-04-07 14:39:11.511 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "2", workTimeType" : "1", workTimeStart" : "08:01", workTimeEnd" : "16:00", driverName" : "李司机", driverCode" : "8899}
-2024-04-07 16:20:07.445 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
-2024-04-07 16:20:09.059 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
-2024-04-07 16:20:09.184 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1739
-2024-04-07 16:20:09.447 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:265
-2024-04-07 16:20:09.451 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
-2024-04-07 16:20:10.235 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:788
-2024-04-07 16:20:10.235 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
-2024-04-07 16:20:20.992 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
-2024-04-07 16:20:26.223 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
-2024-04-07 16:20:26.228 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
-2024-04-07 16:20:37.027 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
-2024-04-07 16:20:37.030 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1028 current code=1007 time=1712478037
-2024-04-07 16:23:56.908 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
-2024-04-07 16:23:57.050 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[BeaconLog : {"id" : "11", code" : "1007", createTime" : "1712478037", sourceData" : "55AA01EF035425", status" : "null", requestId" : "null", beaconType" : "1}] requestId:156 obu code:0001
-2024-04-07 16:23:57.052 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA039C010001EF0355571266FE38
-2024-04-07 16:24:09.298 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0104045B17
-2024-04-07 16:24:09.299 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1028 time=1712478249
-2024-04-07 16:24:39.300 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA049C0100D488
-2024-04-07 16:25:01.413 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:156
-2024-04-07 16:25:47.138 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
-2024-04-07 16:25:47.225 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[BeaconLog : {"id" : "12", code" : "1028", createTime" : "1712478249", sourceData" : "55AA0104045B17", status" : "null", requestId" : "null", beaconType" : "2}] requestId:157 obu code:0001
-2024-04-07 16:25:47.228 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA039D01000104042958126624B5
-2024-04-07 16:26:21.507 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA049D01008548
-2024-04-07 16:26:21.684 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:157
+2024-04-09 13:31:20.228 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 13:31:21.472 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 13:31:21.662 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1434
+2024-04-09 13:31:21.829 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:168
+2024-04-09 13:31:21.836 [pool-3-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:31:22.076 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 13:31:22.513 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:684
+2024-04-09 13:31:22.513 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 13:31:27.517 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 13:31:27.518 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 13:31:27.970 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 13:31:29.337 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 13:31:29.733 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 13:31:29.898 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:35:57.250 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 13:35:58.587 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 13:35:58.687 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1440
+2024-04-09 13:35:58.862 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:175
+2024-04-09 13:35:58.867 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:35:59.118 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 13:35:59.277 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:415
+2024-04-09 13:35:59.277 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 13:42:06.885 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 13:42:08.206 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 13:42:08.317 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1432
+2024-04-09 13:42:08.490 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:174
+2024-04-09 13:42:08.502 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:42:08.788 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 13:42:09.039 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:549
+2024-04-09 13:42:09.039 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 13:42:14.106 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 13:42:14.107 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 13:53:17.699 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 13:53:18.910 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 13:53:19.307 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1608
+2024-04-09 13:53:19.472 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:166
+2024-04-09 13:53:19.481 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:53:19.721 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 13:53:19.884 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:412
+2024-04-09 13:53:19.884 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 13:54:08.082 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 13:54:08.265 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 13:54:09.170 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 13:54:09.330 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:54:46.071 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 13:54:47.306 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 13:54:47.571 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1507
+2024-04-09 13:54:47.735 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:165
+2024-04-09 13:54:47.741 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:54:47.976 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 13:54:48.140 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:405
+2024-04-09 13:54:48.140 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 13:54:50.154 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 13:54:50.331 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 13:54:53.268 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 13:54:53.269 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B

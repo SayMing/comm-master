@@ -62,7 +62,7 @@ public class CarMainFrame {
     private JButton nextButton, upButton;
     private Msg currentMsg;
     private WorkTimerUtils workTimerUtils;
-    private static final int LABEL_FONT_SIZE = 28;
+    private static final int LABEL_FONT_SIZE = 36;
     SerialPortHandler serialPortHandler;
     private static final String VERSION = "V1.1";
 //    private JTextPane receiveText;
@@ -210,9 +210,9 @@ public class CarMainFrame {
      */
     private void initialize() {
         msgLedPanel = new MsgLedPanel();
-        msgLedPanel.setBounds(36, 5, 28, 28);
+        msgLedPanel.setBounds(36, 5, 34, 34);
         msgLedPanel.setBackground(Color.BLACK);
-        msgLedPanel.setPreferredSize(new Dimension(28, 28));
+        msgLedPanel.setPreferredSize(new Dimension(32, 32));
         msgLedPanel.setAlignmentY(Component.TOP_ALIGNMENT);
         msgLedPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
         msgLedPanel.addMouseListener(new MouseAdapter() {
@@ -246,8 +246,8 @@ public class CarMainFrame {
         heardPanel.setLayout(new BorderLayout(0, 0));
         
         JPanel msgPanel = new JPanel();
-        msgPanel.setMinimumSize(new Dimension(28, 28));
-        msgPanel.setPreferredSize(new Dimension(100, 28));
+        msgPanel.setMinimumSize(new Dimension(28, 34));
+        msgPanel.setPreferredSize(new Dimension(370, 32));
         msgPanel.setBackground(Color.BLACK);
         msgPanel.setAlignmentY(Component.TOP_ALIGNMENT);
         msgPanel.setAlignmentX(0.0f);
@@ -258,7 +258,7 @@ public class CarMainFrame {
         lblNewLabel.setForeground(Color.GREEN);
         lblNewLabel.setBackground(Color.BLACK);
         lblNewLabel.setAlignmentY(Component.TOP_ALIGNMENT);
-        lblNewLabel.setFont(new Font("宋体", Font.PLAIN, 32));
+        lblNewLabel.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
         heardPanel.add(lblNewLabel, BorderLayout.CENTER);
         frame.setBackground(Color.BLACK);
         frame.setAlwaysOnTop(true);
@@ -266,13 +266,14 @@ public class CarMainFrame {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         msgPanel.setLayout(null);
         msgLedPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
-        msgPanel.add(msgLedPanel);
+//        msgPanel.add(msgLedPanel);
         
         JPanel panel_1 = new JPanel();
-        panel_1.setPreferredSize(new Dimension(100, 10));
+        panel_1.setPreferredSize(new Dimension(160, 36));
         panel_1.setBackground(Color.BLACK);
         heardPanel.add(panel_1, BorderLayout.EAST);
-        panel_1.setLayout(new CardLayout(0, 0));
+        
+        panel_1.add(msgLedPanel);
         
         JLabel lblNewLabel_11 = new JLabel("最小化");
         lblNewLabel_11.addMouseListener(new MouseAdapter() {
@@ -281,10 +282,11 @@ public class CarMainFrame {
                 frame.setExtendedState(JFrame.ICONIFIED);
             }
         });
+        panel_1.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
         lblNewLabel_11.setHorizontalAlignment(SwingConstants.CENTER);
-        lblNewLabel_11.setFont(new Font("宋体", Font.PLAIN, 22));
+        lblNewLabel_11.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
         lblNewLabel_11.setForeground(Color.GREEN);
-        panel_1.add(lblNewLabel_11, "name_686147829648600");
+        panel_1.add(lblNewLabel_11);
         
         JPanel centerPanel = new JPanel();
         frame.getContentPane().add(centerPanel, BorderLayout.CENTER);
@@ -323,63 +325,63 @@ public class CarMainFrame {
         JLabel lblNewLabel_4 = new JLabel("工作时间：");
         lblNewLabel_4.setForeground(Color.GREEN);
         lblNewLabel_4.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        lblNewLabel_4.setBounds(10, 103, 150, 28);
+        lblNewLabel_4.setBounds(10, 103, 190, 34);
         panel_4.add(lblNewLabel_4);
         
-        JLabel lblNewLabel_5 = new JLabel("驾 驶 员：");
+        JLabel lblNewLabel_5 = new JLabel("司机姓名：");
         lblNewLabel_5.setForeground(Color.GREEN);
         lblNewLabel_5.setHorizontalAlignment(SwingConstants.LEFT);
         lblNewLabel_5.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        lblNewLabel_5.setBounds(10, 169, 150, 28);
+        lblNewLabel_5.setBounds(10, 169, 190, 34);
         panel_4.add(lblNewLabel_5);
         
         JLabel lblNewLabel_6 = new JLabel("卸矿次数：");
         lblNewLabel_6.setForeground(Color.GREEN);
         lblNewLabel_6.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        lblNewLabel_6.setBounds(10, 37, 150, 28);
+        lblNewLabel_6.setBounds(10, 37, 190, 34);
         panel_4.add(lblNewLabel_6);
         
         carSumLabel = new JLabel("");//999 车
         carSumLabel.setForeground(Color.GREEN);
         carSumLabel.setHorizontalAlignment(SwingConstants.LEFT);
         carSumLabel.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        carSumLabel.setBounds(170, 37, 150, 28);
+        carSumLabel.setBounds(170, 37, 190, 34);
         panel_4.add(carSumLabel);
         
         JLabel lblNewLabel_9 = new JLabel("当前班次：");
         lblNewLabel_9.setForeground(Color.GREEN);
         lblNewLabel_9.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        lblNewLabel_9.setBounds(449, 37, 150, 28);
+        lblNewLabel_9.setBounds(449, 37, 190, 34);
         panel_4.add(lblNewLabel_9);
         
         classesLabel = new JLabel("");//早班（8:00 ~ 10:00）
         classesLabel.setForeground(Color.GREEN);
         classesLabel.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        classesLabel.setBounds(609, 37, 300, 28);
+        classesLabel.setBounds(609, 37, 300, 34);
         panel_4.add(classesLabel);
         
         workTimeLabel = new JLabel("");// 10小时10分钟
         workTimeLabel.setForeground(Color.GREEN);
         workTimeLabel.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        workTimeLabel.setBounds(170, 103, 567, 28);
+        workTimeLabel.setBounds(170, 103, 567, 34);
         panel_4.add(workTimeLabel);
         
-        driverNameLabel = new JLabel("");//洪志铭
+        driverNameLabel = new JLabel("");
         driverNameLabel.setForeground(Color.GREEN);
         driverNameLabel.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        driverNameLabel.setBounds(170, 169, 150, 28);
+        driverNameLabel.setBounds(170, 169, 190, 34);
         panel_4.add(driverNameLabel);
         
-        JLabel lblNewLabel_12 = new JLabel("工    号：");
+        JLabel lblNewLabel_12 = new JLabel("司机工号：");
         lblNewLabel_12.setForeground(Color.GREEN);
         lblNewLabel_12.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        lblNewLabel_12.setBounds(449, 169, 150, 28);
+        lblNewLabel_12.setBounds(449, 169, 190, 34);
         panel_4.add(lblNewLabel_12);
         
         jobNumberLabel = new JLabel("");// 12345678
         jobNumberLabel.setForeground(Color.GREEN);
         jobNumberLabel.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        jobNumberLabel.setBounds(609, 169, 250, 28);
+        jobNumberLabel.setBounds(609, 169, 250, 34);
         panel_4.add(jobNumberLabel);
         centerPanel.add(cp_2);
         cp_2.setLayout(new BorderLayout(0, 0));
@@ -405,26 +407,26 @@ public class CarMainFrame {
         JLabel lblNewLabel_7 = new JLabel("本次运矿路线：");
         lblNewLabel_7.setForeground(Color.GREEN);
         lblNewLabel_7.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        lblNewLabel_7.setBounds(10, 38, 220, 28);
+        lblNewLabel_7.setBounds(10, 38, 260, 34);
         panel_5.add(lblNewLabel_7);
         
-        JLabel lblNewLabel_8 = new JLabel("状    态：");
+        JLabel lblNewLabel_8 = new JLabel("状        态：");
         lblNewLabel_8.setForeground(Color.GREEN);
         lblNewLabel_8.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        lblNewLabel_8.setBounds(10, 104, 150, 28);
+        lblNewLabel_8.setBounds(10, 104, 260, 34);
         panel_5.add(lblNewLabel_8);
         
         JLabel lblNewLabel_10 = new JLabel("下次运矿路线：");
         lblNewLabel_10.setForeground(Color.GREEN);
         lblNewLabel_10.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        lblNewLabel_10.setBounds(10, 170, 220, 28);
+        lblNewLabel_10.setBounds(10, 170, 260, 34);
         panel_5.add(lblNewLabel_10);
         
         JPanel panel_6 = new JPanel();
         panel_6.setBackground(Color.BLACK);
-        panel_6.setBounds(240, 38, 851, 28);
+        panel_6.setBounds(280, 38, 435, 34);
         panel_5.add(panel_6);
-        panel_6.setLayout(new FlowLayout(FlowLayout.CENTER, 0, 0));
+        panel_6.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 0));
         
         currentLineStartLabel = new JLabel("");//开始点A
         currentLineStartLabel.setHorizontalAlignment(SwingConstants.CENTER);
@@ -446,15 +448,16 @@ public class CarMainFrame {
         statusLabel = new JLabel("");//去装矿
         statusLabel.setForeground(Color.GREEN);
         statusLabel.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        statusLabel.setBounds(240, 104, 200, 28);
+        statusLabel.setBounds(280, 104, 160, 34);
         panel_5.add(statusLabel);
         
         JPanel panel_7 = new JPanel();
         panel_7.setBackground(Color.BLACK);
         FlowLayout flowLayout = (FlowLayout) panel_7.getLayout();
+        flowLayout.setAlignment(FlowLayout.LEFT);
         flowLayout.setHgap(0);
         flowLayout.setVgap(0);
-        panel_7.setBounds(240, 170, 851, 28);
+        panel_7.setBounds(280, 170, 435, 34);
         panel_5.add(panel_7);
         
         nextLineStartLabel = new JLabel("");//开始点B
@@ -539,10 +542,12 @@ public class CarMainFrame {
         nextButton.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
         panel_9.add(nextButton);
         
-        nowTime = new JLabel("");
+        nowTime = new JLabel("yyyy-MM-dd HH:mm:ss");
+        nowTime.setLocation(0, 0);
+        nowTime.setSize(370, 37);
         nowTime.setForeground(Color.GREEN);
         nowTime.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
-        panel_9.add(nowTime);
+        msgPanel.add(nowTime);
         
         msgTextPane = new JTextPane();
         msgTextPane.setMargin(new Insets(10, 10, 10, 10));
