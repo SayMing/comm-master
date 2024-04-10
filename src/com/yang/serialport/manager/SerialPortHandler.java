@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 import java.util.TooManyListenersException;
 
@@ -25,14 +24,11 @@ import com.yang.serialport.utils.Constants;
 import com.yang.serialport.utils.DB;
 import com.yang.serialport.utils.ExpandSplitIter;
 import com.yang.serialport.utils.HEXUtil;
-import com.yang.serialport.utils.ShowUtils;
 
-import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.CharsetUtil;
 import cn.hutool.core.util.HexUtil;
 import cn.hutool.core.util.ObjectUtil;
-import cn.hutool.core.util.ReUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.cron.CronUtil;
 import cn.hutool.cron.task.Task;
@@ -85,6 +81,7 @@ public class SerialPortHandler implements SerialPortEventListener{
     
     @Override
     public void serialEvent(SerialPortEvent serialPortEvent) {
+        logger.info("serialPortEvent:{}", serialPortEvent.getEventType());
         if (serialPortEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
             try {
                 InputStream inputStream = mSerialport.getInputStream();
@@ -165,6 +162,8 @@ public class SerialPortHandler implements SerialPortEventListener{
             } catch (IOException e) {
                 logger.error(e.getMessage(), e);
             }
+        }else if (serialPortEvent.getEventType() == SerialPortEvent.BI) { // 10.通讯中断
+            logger.error("***通讯中断***");
         }
     }
     
@@ -283,20 +282,18 @@ public class SerialPortHandler implements SerialPortEventListener{
         logger.info("系统链接串口号：" + commName);
         // 检查串口名称是否获取正确
         if (commName == null || commName.equals("")) {
-            ShowUtils.warningMessage("没有搜索到有效串口！");
-            throw new NullPointerException("没有搜索到有效串口！");
+            logger.error("没有搜索到有效串口！");
         } else {
             try {
                 mSerialport = SerialPortManager.openPort(commName, 115200);
                 if(mSerialport == null) {
-                    ShowUtils.warningMessage("启动串口号["+commName+"]失败。");
-                    throw new NullPointerException("启动串口号["+commName+"]失败。");
+                    logger.error("启动串口号[{}]失败。", commName);
+                }else {
+                    mSerialport.addEventListener(this);
+                    mSerialport.notifyOnDataAvailable(true);
                 }
-                mSerialport.addEventListener(this);
-                mSerialport.notifyOnDataAvailable(true);
             } catch (TooManyListenersException | PortInUseException e) {
-                ShowUtils.warningMessage("串口已被占用【"+commName+"】！");
-                throw new RuntimeException("串口已被占用【"+commName+"】！");
+                logger.error("串口已被占用【{}】！", commName);
             }
         }
     }
@@ -416,11 +413,11 @@ public class SerialPortHandler implements SerialPortEventListener{
             
             String classeString = "";
             if(workTimeType == 1) { // 1对应早班；2对应中班；3对应晚班；
-                classeString = "早班("+workTimeStart+" ~ " + workTimeEnd +")";
+                classeString = "早班("+workTimeStart+" - " + workTimeEnd +")";
             }else if(workTimeType == 2) {
-                classeString = "中班("+workTimeStart+" ~ " + workTimeEnd +")";
+                classeString = "中班("+workTimeStart+" - " + workTimeEnd +")";
             }else if(workTimeType == 3) {
-                classeString = "晚班("+workTimeStart+" ~ " + workTimeEnd +")";
+                classeString = "晚班("+workTimeStart+" - " + workTimeEnd +")";
             }
             
             carMainFrame.setDriverNameLabel(driverName);

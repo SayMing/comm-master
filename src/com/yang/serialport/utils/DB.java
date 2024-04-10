@@ -353,6 +353,36 @@ public class DB {
         }
         return msgDto;
     }
+    public int countNowMsg(Long currentId) {
+        int count = 0;
+        String sql = "select COUNT(1)+1 from msg where id < ?";
+        try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+            preparedStatement.setLong(1, currentId);
+            
+            try (ResultSet resultSet = preparedStatement.executeQuery()) {
+                if (resultSet.next()) {
+                    count = resultSet.getInt(1);
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return count;
+    }
+    public int countMsg() {
+        int count = 0;
+        String sql = "select COUNT(1) from msg";
+        try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
+            try (ResultSet resultSet = preparedStatement.executeQuery()) {
+                if (resultSet.next()) {
+                    count = resultSet.getInt(1);
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return count;
+    }
     
     /**
      * 获取上传批次号并自动更新下一次批次号，累加1

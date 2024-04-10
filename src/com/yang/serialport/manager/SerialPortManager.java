@@ -68,7 +68,7 @@ public class SerialPortManager {
 			// 通过端口名识别端口
 			CommPortIdentifier portIdentifier = CommPortIdentifier.getPortIdentifier(portName);
 			// 打开端口，并给端口名字和一个timeout（打开操作的超时时间）
-			CommPort commPort = portIdentifier.open(SerialPortManager.class.getName(), 2000);
+			CommPort commPort = portIdentifier.open(SerialPortManager.class.getName(), 1000);
 			// 判断是不是串口
 			if (commPort instanceof SerialPort) {
 				SerialPort serialPort = (SerialPort) commPort;
@@ -236,7 +236,6 @@ public class SerialPortManager {
 				break;
 
 			case SerialPortEvent.BI: // 10.通讯中断
-				ShowUtils.errorMessage("与串口设备通讯中断");
 				break;
 
 			default:
