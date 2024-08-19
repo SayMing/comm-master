@@ -1,0 +1,335 @@
+2024-04-11 10:00:31.477 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-11 10:00:33.062 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-11 10:00:33.159 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1684
+2024-04-11 10:00:34.265 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:1107
+2024-04-11 10:00:34.276 [pool-3-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=42, msg=噗噗, createTime=1712753546870
+2024-04-11 10:00:34.452 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:187
+2024-04-11 10:00:34.452 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-11 10:00:34.540 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-11 10:00:39.942 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-11 10:00:39.942 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-11 10:00:41.685 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:41.696 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:41.716 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:41.725 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:41.808 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:41.809 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:41.810 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:46.542 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:46.544 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:46.544 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:46.545 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:46.546 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:46.547 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:46.548 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:56.955 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:56.955 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:56.955 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:56.956 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:56.958 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:56.958 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:56.959 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:57.774 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:57.778 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:57.779 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:57.780 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:57.781 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:57.781 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:57.782 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:58.158 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:58.160 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:58.161 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:58.161 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:58.162 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:58.162 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:58.163 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:58.334 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:58.335 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:58.336 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:58.341 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:58.344 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:58.344 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:58.345 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:58.502 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:58.502 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:58.503 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:58.503 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:58.504 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:58.504 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:58.505 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:58.687 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:58.687 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:58.689 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:58.689 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:58.690 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:58.690 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:58.691 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:58.944 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:58.945 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:58.945 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:58.945 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:58.946 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:58.947 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:58.947 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:59.126 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:59.128 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:59.129 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:59.129 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:59.130 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:59.130 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:59.130 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:59.313 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:59.314 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:59.315 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:59.315 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:59.316 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:59.317 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:59.317 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:59.548 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:59.549 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:59.549 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:59.550 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:59.551 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:59.551 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:59.552 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:00:59.742 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:00:59.742 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:00:59.743 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:00:59.743 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:00:59.745 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:00:59.745 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:00:59.746 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:01:51.216 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:01:51.216 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:01:51.217 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:01:51.217 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:01:51.218 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:01:51.218 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:01:51.219 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:01:53.223 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:false, isCTS:true, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:01:53.223 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:01:53.224 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:01:53.224 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:01:53.225 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:01:53.226 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:01:53.231 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:02:05.509 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:false, isCTS:true, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:02:05.509 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:02:05.510 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:02:13.731 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:02:13.732 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:02:13.733 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:02:41.989 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:false, isCTS:false, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:02:41.989 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:02:41.991 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:02:45.870 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:02:45.872 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:02:45.873 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:04:44.809 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-11 10:04:46.024 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-11 10:04:46.128 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1320
+2024-04-11 10:04:46.852 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:725
+2024-04-11 10:04:46.858 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=42, msg=噗噗, createTime=1712753546870
+2024-04-11 10:04:47.048 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:196
+2024-04-11 10:04:47.048 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-11 10:04:47.200 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-11 10:04:52.406 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-11 10:04:52.407 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-11 10:04:58.991 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:04:59.006 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:04:59.009 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:04:59.011 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:04:59.095 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:04:59.096 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:04:59.097 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:05:14.701 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:05:14.703 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:05:14.703 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:05:14.704 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:05:14.705 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:05:14.705 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:05:14.706 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:08:10.005 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-11 10:08:11.224 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-11 10:08:11.351 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1352
+2024-04-11 10:08:11.846 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:496
+2024-04-11 10:08:11.853 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=42, msg=噗噗, createTime=1712753546870
+2024-04-11 10:08:12.003 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:157
+2024-04-11 10:08:12.003 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-11 10:08:12.090 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-11 10:08:17.305 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-11 10:08:17.306 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-11 10:10:13.880 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-11 10:10:15.101 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-11 10:10:15.192 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1321
+2024-04-11 10:10:15.676 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:484
+2024-04-11 10:10:15.681 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=42, msg=噗噗, createTime=1712753546870
+2024-04-11 10:10:15.831 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:155
+2024-04-11 10:10:15.831 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-11 10:10:15.905 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-11 10:10:21.114 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-11 10:10:21.115 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-11 10:10:47.677 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:10:47.689 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:10:47.692 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:10:47.693 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:10:47.836 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:10:47.837 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:10:47.838 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:11:13.866 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 10:11:13.867 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AB01006546
+2024-04-11 10:11:13.867 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:171
+2024-04-11 10:11:13.868 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010000021000173B20202020F9D1BBD27C00000042DC
+2024-04-11 10:11:13.869 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "0", workTimeType" : "2", workTimeStart" : "16:00", workTimeEnd" : "23:59", driverName" : "一样", driverCode" : "124}
+2024-04-11 10:11:13.870 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100210004040000000028BA
+2024-04-11 10:11:13.870 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "33", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 10:15:25.977 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-11 10:15:27.216 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-11 10:15:27.408 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1436
+2024-04-11 10:15:27.936 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:529
+2024-04-11 10:15:27.946 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=42, msg=噗噗, createTime=1712753546870
+2024-04-11 10:15:28.121 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:185
+2024-04-11 10:15:28.121 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-11 10:15:28.207 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-11 10:15:33.414 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-11 10:15:33.415 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-11 14:16:48.367 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:1
+2024-04-11 14:16:49.659 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-11 14:16:49.835 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1469
+2024-04-11 14:16:50.497 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:663
+2024-04-11 14:16:50.515 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=42, msg=噗噗, createTime=1712753546870
+2024-04-11 14:16:50.842 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-11 14:16:50.873 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:376
+2024-04-11 14:16:50.873 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-11 14:16:56.055 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-11 14:16:56.056 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-11 14:17:18.363 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:17:18.374 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-04-11 14:17:18.376 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1028 current code=1007 time=1712816238
+2024-04-11 14:17:21.491 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:17:21.492 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0104045B17
+2024-04-11 14:17:21.493 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1028 time=1712816241
+2024-04-11 14:17:22.658 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:17:22.659 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-04-11 14:17:22.661 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1028 current code=1007 time=1712816242
+2024-04-11 14:17:23.426 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:17:23.426 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0104045B17
+2024-04-11 14:17:23.427 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1028 time=1712816243
+2024-04-11 14:17:23.988 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:17:23.988 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-04-11 14:17:23.989 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1028 current code=1007 time=1712816243
+2024-04-11 14:17:24.763 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:17:24.763 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0104045B17
+2024-04-11 14:17:24.764 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1028 current code=1028 time=1712816244
+2024-04-11 14:17:25.256 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:17:25.257 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-04-11 14:17:25.258 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1028 current code=1007 time=1712816245
+2024-04-11 14:17:25.774 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:17:25.775 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0104045B17
+2024-04-11 14:17:25.777 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1028 time=1712816245
+2024-04-11 14:17:27.102 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:17:27.105 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
+2024-04-11 14:17:27.234 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[BeaconLog : {"id" : "46", code" : "1007", createTime" : "1712816238", sourceData" : "55AA01EF035425", status" : "null", requestId" : "null", beaconType" : "1}, BeaconLog : {"id" : "47", code" : "1028", createTime" : "1712816241", sourceData" : "55AA0104045B17", status" : "null", requestId" : "null", beaconType" : "2}, BeaconLog : {"id" : "48", code" : "1007", createTime" : "1712816242", sourceData" : "55AA01EF035425", status" : "null", requestId" : "null", beaconType" : "1}, BeaconLog : {"id" : "49", code" : "1028", createTime" : "1712816243", sourceData" : "55AA0104045B17", status" : "null", requestId" : "null", beaconType" : "2}, BeaconLog : {"id" : "50", code" : "1007", createTime" : "1712816243", sourceData" : "55AA01EF035425", status" : "null", requestId" : "null", beaconType" : "1}, BeaconLog : {"id" : "51", code" : "1007", createTime" : "1712816245", sourceData" : "55AA01EF035425", status" : "null", requestId" : "null", beaconType" : "1}, BeaconLog : {"id" : "52", code" : "1028", createTime" : "1712816245", sourceData" : "55AA0104045B17", status" : "null", requestId" : "null", beaconType" : "2}] requestId:172 obu code:0001
+2024-04-11 14:17:27.235 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA03AC010007EF036E801766040471801766EF0372801766040473801766EF0373801766EF03758017660404758017668447
+2024-04-11 14:17:56.746 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:17:56.746 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AC0100D487
+2024-04-11 14:17:56.929 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:172
+2024-04-11 14:17:56.930 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0801000101000320202020202020202020202020202031303A
+2024-04-11 14:17:56.932 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1 type:3 location:1               
+2024-04-11 14:17:57.014 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - send sync beacon list result body:55AA09010001303A
+2024-04-11 14:17:57.015 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA09010001303A7788
+2024-04-11 14:17:57.015 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010003010800100020202020202037370903000080F1
+2024-04-11 14:17:57.101 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "3", workTimeType" : "1", workTimeStart" : "08:00", workTimeEnd" : "16:00", driverName" : "77", driverCode" : "777}
+2024-04-11 14:17:57.102 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100EF030404EF03040451B1
+2024-04-11 14:17:57.184 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "1007", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "1007", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "1028", nextBeaconEndLocation" : "null}
+2024-04-11 14:18:11.060 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:18:11.064 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AC0100D487
+2024-04-11 14:18:11.066 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:172
+2024-04-11 14:18:11.067 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0801000101000320202020202020202020202020202031303A
+2024-04-11 14:18:11.067 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive beacon info code:1 type:3 location:1               
+2024-04-11 14:18:11.068 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - send sync beacon list result body:55AA09010001303A
+2024-04-11 14:18:11.069 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA09010001303A7788
+2024-04-11 14:18:11.069 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA05010003010800100020202020202037370903000080F1
+2024-04-11 14:18:11.070 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "3", workTimeType" : "1", workTimeStart" : "08:00", workTimeEnd" : "16:00", driverName" : "77", driverCode" : "777}
+2024-04-11 14:18:11.070 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA060100EF030404EF03040451B1
+2024-04-11 14:18:11.070 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "1007", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "1028", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "1007", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "1028", nextBeaconEndLocation" : "null}
+2024-04-11 14:18:45.299 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:18:45.300 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-04-11 14:18:45.302 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1007 time=1712816325
+2024-04-11 14:18:45.915 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:18:45.916 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0104045B17
+2024-04-11 14:18:45.918 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1028 time=1712816325
+2024-04-11 14:18:46.769 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:18:46.770 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
+2024-04-11 14:18:46.860 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[BeaconLog : {"id" : "53", code" : "1028", createTime" : "1712816325", sourceData" : "55AA0104045B17", status" : "null", requestId" : "null", beaconType" : "2}] requestId:173 obu code:0001
+2024-04-11 14:18:46.860 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA03AD0100010404C580176693B1
+2024-04-11 14:18:58.382 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:18:58.383 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AD01008547
+2024-04-11 14:18:58.477 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:173
+2024-04-11 14:18:58.478 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA050100040000000000202020202020202000000000F2BA
+2024-04-11 14:18:58.562 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "4", workTimeType" : "0", workTimeStart" : "00:00", workTimeEnd" : "00:00", driverName" : "", driverCode" : "0}
+2024-04-11 14:18:58.564 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA06010000000000000000001B2A
+2024-04-11 14:18:58.655 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "0", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "0", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 14:19:06.906 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:19:06.906 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-04-11 14:19:06.907 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1028 current code=1007 time=1712816346
+2024-04-11 14:19:08.644 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:19:08.644 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-04-11 14:19:08.645 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1007 time=1712816348
+2024-04-11 14:19:12.690 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:19:12.690 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0104045B17
+2024-04-11 14:19:12.691 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1028 time=1712816352
+2024-04-11 14:21:09.181 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-11 14:21:10.416 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-11 14:21:10.605 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1425
+2024-04-11 14:21:11.197 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:593
+2024-04-11 14:21:11.203 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=42, msg=噗噗, createTime=1712753546870
+2024-04-11 14:21:11.359 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:162
+2024-04-11 14:21:11.360 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:1
+2024-04-11 14:21:11.452 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-11 14:21:16.674 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-11 14:21:16.676 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-11 14:21:38.267 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-11 14:21:39.478 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-11 14:21:39.596 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1332
+2024-04-11 14:21:40.069 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:474
+2024-04-11 14:21:40.080 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=42, msg=噗噗, createTime=1712753546870
+2024-04-11 14:21:40.223 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:154
+2024-04-11 14:21:40.223 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-11 14:21:40.305 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-11 14:21:45.516 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-11 14:21:45.517 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-11 14:21:47.133 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:21:47.142 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-04-11 14:21:47.146 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1028 current code=1007 time=1712816507
+2024-04-11 14:21:47.866 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:21:47.867 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0104045B17
+2024-04-11 14:21:47.868 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1028 time=1712816507
+2024-04-11 14:21:49.031 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:21:49.031 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA020000A814
+2024-04-11 14:21:49.210 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - not send datas:[BeaconLog : {"id" : "54", code" : "1007", createTime" : "1712816346", sourceData" : "55AA01EF035425", status" : "null", requestId" : "null", beaconType" : "1}, BeaconLog : {"id" : "55", code" : "1028", createTime" : "1712816352", sourceData" : "55AA0104045B17", status" : "null", requestId" : "null", beaconType" : "2}, BeaconLog : {"id" : "56", code" : "1007", createTime" : "1712816507", sourceData" : "55AA01EF035425", status" : "null", requestId" : "null", beaconType" : "1}, BeaconLog : {"id" : "57", code" : "1028", createTime" : "1712816507", sourceData" : "55AA0104045B17", status" : "null", requestId" : "null", beaconType" : "2}] requestId:174 obu code:0001
+2024-04-11 14:21:49.211 [Thread-6] INFO  c.y.s.manager.SerialPortManager - send to port:55AA03AE010004EF03DA8017660404E0801766EF037B81176604047B8117665BFF
+2024-04-11 14:22:02.400 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:22:02.401 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AE01007547
+2024-04-11 14:22:02.578 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:174
+2024-04-11 14:22:02.579 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA0501000600000000002020202020202020000000005302
+2024-04-11 14:22:02.663 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "6", workTimeType" : "0", workTimeStart" : "00:00", workTimeEnd" : "00:00", driverName" : "", driverCode" : "0}
+2024-04-11 14:22:02.664 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA06010000000000000000001B2A
+2024-04-11 14:22:02.666 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "0", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "0", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}
+2024-04-11 14:39:06.613 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-11 14:39:08.197 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-11 14:39:08.379 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1767
+2024-04-11 14:39:08.907 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:529
+2024-04-11 14:39:08.911 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=42, msg=噗噗, createTime=1712753546870
+2024-04-11 14:39:09.131 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:224
+2024-04-11 14:39:09.131 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-11 14:39:09.132 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-11 14:39:14.342 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-11 14:39:14.346 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-11 14:39:23.464 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-04-11 14:39:23.494 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA04AE01007547
+2024-04-11 14:39:23.498 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveBeaconLogResult04 set send status over:174
+2024-04-11 14:39:23.499 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA050100080108001000202020202020202000000000766F
+2024-04-11 14:39:23.578 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkTimeInfoData05 save workTimeInfo over:WorkTimeInfo : {"id" : "1", trainTripNum" : "8", workTimeType" : "1", workTimeStart" : "08:00", workTimeEnd" : "16:00", driverName" : "", driverCode" : "}
+2024-04-11 14:39:23.582 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA06010000000000000000001B2A
+2024-04-11 14:39:23.584 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receiveWorkLineInfoData06 save workLineInfo over:WorkLineInfo : {"id" : "1", currentBeaconCodeStart" : "0", currentBeaconStartLocation" : "null", currentBeaconCodeEnd" : "0", currentBeaconEndLocation" : "null", nextBeaconCodeStart" : "0", nextBeaconStartLocation" : "null", nextBeaconCodeEnd" : "0", nextBeaconEndLocation" : "null}

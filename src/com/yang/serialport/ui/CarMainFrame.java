@@ -373,7 +373,7 @@ public class CarMainFrame {
         lblNewLabel_9.setBounds(449, 37, 180, 38);
         panel_4.add(lblNewLabel_9);
         
-        classesLabel = new JLabel("早班(08:01 - 08:01)");//早班（8:00 ~ 10:00）
+        classesLabel = new JLabel("");//早班（8:00 ~ 10:00）
         classesLabel.setForeground(Color.GREEN);
         classesLabel.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
         classesLabel.setBounds(639, 37, 350, 38);
@@ -443,11 +443,11 @@ public class CarMainFrame {
         
         JPanel panel_6 = new JPanel();
         panel_6.setBackground(Color.BLACK);
-        panel_6.setBounds(280, 38, 539, 38);
+        panel_6.setBounds(280, 38, 2000, 38);
         panel_5.add(panel_6);
         panel_6.setLayout(new FlowLayout(FlowLayout.LEFT, 0, 0));
         
-        currentLineStartLabel = new JLabel("");//开始点A
+        currentLineStartLabel = new JLabel("");
         currentLineStartLabel.setHorizontalAlignment(SwingConstants.CENTER);
         currentLineStartLabel.setForeground(Color.GREEN);
         currentLineStartLabel.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
@@ -458,7 +458,7 @@ public class CarMainFrame {
         lblNewLabel_13.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
         panel_6.add(lblNewLabel_13);
         
-        currentLineEndLabel = new JLabel("");//结束点A
+        currentLineEndLabel = new JLabel("");
         currentLineEndLabel.setHorizontalAlignment(SwingConstants.CENTER);
         currentLineEndLabel.setForeground(Color.GREEN);
         currentLineEndLabel.setFont(new Font("宋体", Font.PLAIN, LABEL_FONT_SIZE));
@@ -477,7 +477,7 @@ public class CarMainFrame {
         flowLayout.setAlignment(FlowLayout.LEFT);
         flowLayout.setHgap(0);
         flowLayout.setVgap(0);
-        panel_7.setBounds(280, 170, 539, 38);
+        panel_7.setBounds(280, 170, 2000, 38);
         panel_5.add(panel_7);
         
         nextLineStartLabel = new JLabel("");//开始点B

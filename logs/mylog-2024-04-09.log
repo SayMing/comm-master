@@ -1,0 +1,226 @@
+2024-04-09 13:31:20.228 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 13:31:21.472 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 13:31:21.662 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1434
+2024-04-09 13:31:21.829 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:168
+2024-04-09 13:31:21.836 [pool-3-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:31:22.076 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 13:31:22.513 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:684
+2024-04-09 13:31:22.513 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 13:31:27.517 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 13:31:27.518 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 13:31:27.970 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 13:31:29.337 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 13:31:29.733 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 13:31:29.898 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:35:57.250 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 13:35:58.587 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 13:35:58.687 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1440
+2024-04-09 13:35:58.862 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:175
+2024-04-09 13:35:58.867 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:35:59.118 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 13:35:59.277 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:415
+2024-04-09 13:35:59.277 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 13:42:06.885 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 13:42:08.206 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 13:42:08.317 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1432
+2024-04-09 13:42:08.490 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:174
+2024-04-09 13:42:08.502 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:42:08.788 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 13:42:09.039 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:549
+2024-04-09 13:42:09.039 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 13:42:14.106 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 13:42:14.107 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 13:53:17.699 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 13:53:18.910 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 13:53:19.307 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1608
+2024-04-09 13:53:19.472 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:166
+2024-04-09 13:53:19.481 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:53:19.721 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 13:53:19.884 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:412
+2024-04-09 13:53:19.884 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 13:54:08.082 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 13:54:08.265 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 13:54:09.170 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 13:54:09.330 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:54:46.071 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 13:54:47.306 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 13:54:47.571 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1507
+2024-04-09 13:54:47.735 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:165
+2024-04-09 13:54:47.741 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 13:54:47.976 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 13:54:48.140 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:405
+2024-04-09 13:54:48.140 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 13:54:50.154 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 13:54:50.331 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 13:54:53.268 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 13:54:53.269 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 19:38:13.399 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 19:38:14.661 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 19:38:14.769 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1374
+2024-04-09 19:38:15.351 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:583
+2024-04-09 19:38:15.366 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 19:38:15.602 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:251
+2024-04-09 19:38:15.603 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:1
+2024-04-09 19:38:15.673 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 19:38:20.967 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 19:38:20.968 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 19:38:25.573 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 19:44:52.876 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 19:44:54.099 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 19:44:54.288 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1414
+2024-04-09 19:44:54.790 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:503
+2024-04-09 19:44:54.802 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 19:44:54.925 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:135
+2024-04-09 19:44:54.926 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:1
+2024-04-09 19:44:55.075 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 19:45:53.662 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 19:45:54.995 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 19:45:55.188 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1526
+2024-04-09 19:45:55.785 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:598
+2024-04-09 19:45:55.798 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 19:45:56.006 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:221
+2024-04-09 19:45:56.006 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 19:45:56.081 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 19:46:49.087 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 19:46:50.293 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 19:46:50.433 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1347
+2024-04-09 19:46:50.920 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:487
+2024-04-09 19:46:50.928 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 19:46:51.040 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:120
+2024-04-09 19:46:51.041 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:1
+2024-04-09 19:46:51.178 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 19:46:56.472 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 19:46:56.472 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 19:49:35.793 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 19:49:36.063 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 19:51:50.820 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 19:51:52.039 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 19:51:52.228 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1410
+2024-04-09 19:51:52.745 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:518
+2024-04-09 19:51:52.754 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 19:51:52.921 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:176
+2024-04-09 19:51:52.921 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 19:51:52.992 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 19:52:36.807 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 19:52:36.953 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 19:53:04.696 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 19:53:05.930 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 19:53:06.034 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1337
+2024-04-09 19:53:06.582 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:550
+2024-04-09 19:53:06.590 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 19:53:06.745 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:163
+2024-04-09 19:53:06.746 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:1
+2024-04-09 19:53:06.814 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 19:53:09.198 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 19:53:09.699 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 19:53:10.839 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 19:53:11.450 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 19:53:11.841 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 19:53:12.110 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 19:53:12.111 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 20:11:37.129 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 20:11:38.370 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 20:11:38.487 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1358
+2024-04-09 20:11:39.015 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:529
+2024-04-09 20:11:39.022 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:11:39.189 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:174
+2024-04-09 20:11:39.190 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:1
+2024-04-09 20:11:39.251 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 20:11:43.455 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:11:43.731 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:11:43.988 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:11:44.241 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:11:44.552 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 20:11:44.553 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 20:11:47.697 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:11:47.870 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:11:48.848 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:11:49.012 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:11:49.650 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:11:49.814 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:20:34.624 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 20:20:35.861 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 20:20:35.971 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1348
+2024-04-09 20:20:36.485 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:515
+2024-04-09 20:20:36.491 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:20:36.628 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:143
+2024-04-09 20:20:36.628 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 20:20:36.745 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 20:20:38.932 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:20:39.832 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:20:40.403 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:20:40.596 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:20:41.122 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:20:41.286 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:20:41.752 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:20:41.909 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:20:42.059 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 20:20:42.061 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 20:20:42.383 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:20:42.545 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:20:42.817 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:20:42.986 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:20:43.318 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:20:43.475 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:20:43.753 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:20:43.908 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:21:04.235 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 20:21:05.606 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 20:21:05.860 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1627
+2024-04-09 20:21:06.391 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:532
+2024-04-09 20:21:06.400 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:21:06.613 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:222
+2024-04-09 20:21:06.613 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 20:21:06.667 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 20:21:08.413 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:08.913 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:21:10.947 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:11.571 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:21:11.967 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 20:21:11.968 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 20:21:13.074 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:13.244 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:21:14.622 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:14.992 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:21:15.361 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:15.690 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:21:15.964 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:29.611 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 20:21:30.855 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 20:21:31.070 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1459
+2024-04-09 20:21:31.594 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:525
+2024-04-09 20:21:31.606 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:21:31.759 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:165
+2024-04-09 20:21:31.759 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 20:21:31.837 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 20:21:34.609 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:35.062 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:21:35.889 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:36.082 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:21:37.147 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-04-09 20:21:37.147 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port:55AA090100000000B25B
+2024-04-09 20:21:38.027 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:38.196 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:21:38.867 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:39.042 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:21:39.573 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:39.744 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:21:40.183 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:40.348 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:21:40.910 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:41.066 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532
+2024-04-09 20:21:41.521 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:21:41.682 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:21:43.314 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:23:13.515 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-04-09 20:23:14.750 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-04-09 20:23:14.849 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1336
+2024-04-09 20:23:15.344 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:495
+2024-04-09 20:23:15.355 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:23:15.499 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:155
+2024-04-09 20:23:15.499 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-04-09 20:23:15.591 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-04-09 20:23:19.535 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:23:19.884 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=11, msg=一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零一二三四五六七八九零, createTime=1712415291813
+2024-04-09 20:23:20.660 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=10, msg=12345678901234567890123456789012345678901234567890, createTime=1712415287539
+2024-04-09 20:23:20.818 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1712201824532

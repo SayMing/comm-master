@@ -81,10 +81,11 @@ public class SerialPortHandler implements SerialPortEventListener{
     
     @Override
     public void serialEvent(SerialPortEvent serialPortEvent) {
-        logger.info("serialPortEvent:{}", serialPortEvent.getEventType());
+        logger.info("serialPortEvent:{} mSerialport isCD:{}, isCTS:{}, isDSR:{}, isDTR:{}, isRI:{}, isRTS:{}, ", 
+                serialPortEvent.getEventType(),
+                mSerialport.isCD(), mSerialport.isCTS(), mSerialport.isDSR(), mSerialport.isDTR(), mSerialport.isRI(), mSerialport.isRTS());
         if (serialPortEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
-            try {
-                InputStream inputStream = mSerialport.getInputStream();
+            try (InputStream inputStream = mSerialport.getInputStream()){
                 int availableBytes = inputStream.available();
                 byte[] buffer = new byte[availableBytes];
                 inputStream.read(buffer);
@@ -199,6 +200,7 @@ public class SerialPortHandler implements SerialPortEventListener{
                     carMainFrame.setStatusLabel(Constants.CarStatus.IN_INSTALL);
                     // 当接收到装矿点的无线信标编号与去的不一致时，提示装矿点错误；
                     if(workLineInfo != null && workLineInfo.getCurrentBeaconCodeStart() != null 
+                            && workLineInfo.getCurrentBeaconCodeStart() != 0
                             && !ObjectUtil.equal(currentBeacon.getCode(), workLineInfo.getCurrentBeaconCodeStart())) {
                         carMainFrame.setStatusLabel(Constants.CarStatus.ERROR_INSTALL);
                     }
@@ -399,7 +401,9 @@ public class SerialPortHandler implements SerialPortEventListener{
             }
             index+=8;
             String driverCode = Integer.toString(HEXUtil.covert(StrUtil.concat(true, Arrays.copyOfRange(dataHexStrs, index, index+4))));
-            
+            if(StrUtil.equals("0", driverCode)) {
+                driverCode = "";
+            }
             WorkTimeInfo workTimeInfo = new WorkTimeInfo();
             workTimeInfo.setDriverCode(driverCode);
             workTimeInfo.setDriverName(driverName);
@@ -418,6 +422,8 @@ public class SerialPortHandler implements SerialPortEventListener{
                 classeString = "中班("+workTimeStart+" - " + workTimeEnd +")";
             }else if(workTimeType == 3) {
                 classeString = "晚班("+workTimeStart+" - " + workTimeEnd +")";
+            }else {
+                classeString = "";
             }
             
             carMainFrame.setDriverNameLabel(driverName);
