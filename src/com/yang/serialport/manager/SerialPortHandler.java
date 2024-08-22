@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.TooManyListenersException;
 
+import javax.swing.JOptionPane;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -285,17 +287,23 @@ public class SerialPortHandler implements SerialPortEventListener{
         // 检查串口名称是否获取正确
         if (commName == null || commName.equals("")) {
             logger.error("没有搜索到有效串口！");
+            JOptionPane.showMessageDialog(carMainFrame.getFrame(), "没有搜索到有效串口！");
         } else {
             try {
                 mSerialport = SerialPortManager.openPort(commName, 115200);
                 if(mSerialport == null) {
                     logger.error("启动串口号[{}]失败。", commName);
+                    JOptionPane.showMessageDialog(carMainFrame.getFrame(), "启动串口号["+commName+"]失败。");
                 }else {
                     mSerialport.addEventListener(this);
                     mSerialport.notifyOnDataAvailable(true);
                 }
             } catch (TooManyListenersException | PortInUseException e) {
                 logger.error("串口已被占用【{}】！", commName);
+                JOptionPane.showMessageDialog(carMainFrame.getFrame(), "串口已被占用【"+commName+"】");
+            } catch (Exception e) {
+                logger.error("串口【{}】未找到！", commName);
+                JOptionPane.showMessageDialog(carMainFrame.getFrame(), "串口【"+commName+"】未找到！");
             }
         }
     }

@@ -51,19 +51,6 @@ public class WorkTimerUtils {
         };
 
         scheduler.scheduleAtFixedRate(timerTask, 0, 1, TimeUnit.SECONDS);
-        
-//        ScheduledFuture<?> timerFuture = scheduler.scheduleAtFixedRate(
-//                timerTask,
-//                0,
-//                1,
-//                TimeUnit.SECONDS
-//        );
-//
-//        scheduler.schedule(() -> {
-//            timerFuture.cancel(true);
-//            stopTimer();
-//            System.out.println("Timer canceled after " + cancellationDelaySeconds + " seconds.");
-//        }, cancellationDelaySeconds, TimeUnit.SECONDS);
     }
 
     private void stopTimer() {

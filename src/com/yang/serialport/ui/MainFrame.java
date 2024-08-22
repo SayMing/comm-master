@@ -262,7 +262,9 @@ public class MainFrame extends JFrame {
 				}
 			} catch (PortInUseException e) {
 				ShowUtils.warningMessage("串口已被占用！");
-			}
+			} catch (Exception e) {
+                ShowUtils.warningMessage("串口已被占用！");
+            }
 		}
 
 		// 添加串口监听

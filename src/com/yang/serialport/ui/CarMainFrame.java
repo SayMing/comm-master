@@ -35,6 +35,7 @@ import org.slf4j.LoggerFactory;
 import com.yang.serialport.manager.SerialPortHandler;
 import com.yang.serialport.model.Msg;
 import com.yang.serialport.model.WorkLineInfo;
+import com.yang.serialport.utils.ConfigProperties;
 import com.yang.serialport.utils.DB;
 import com.yang.serialport.utils.WorkTimerUtils;
 
@@ -64,7 +65,7 @@ public class CarMainFrame {
     private WorkTimerUtils workTimerUtils;
     private static final int LABEL_FONT_SIZE = 36;
     SerialPortHandler serialPortHandler;
-    private static final String VERSION = "V1.2";
+    private static final String VERSION = "V1.2   编号:%s";
     private static final String MSG_FORMAT = "【%s】 %s";
     private static final String MSG_COUNT_FORMAT = "第%d条/共%d条";
 //    private JTextPane receiveText;
@@ -272,7 +273,7 @@ public class CarMainFrame {
         msgPanel.setAlignmentX(0.0f);
         heardPanel.add(msgPanel, BorderLayout.WEST);
         
-        JLabel lblNewLabel = new JLabel("无轨运矿车辆卸矿调度系统 "+ VERSION);
+        JLabel lblNewLabel = new JLabel("无轨运矿车辆卸矿调度系统 "+ String.format(VERSION, ConfigProperties.getObuCode()));
         lblNewLabel.setHorizontalAlignment(SwingConstants.CENTER);
         lblNewLabel.setForeground(Color.GREEN);
         lblNewLabel.setBackground(Color.BLACK);
