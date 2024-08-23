@@ -142,15 +142,6 @@ public class CarMainFrame {
     public void setMsgCount(int current, int total) {
         this.msgCountLabel.setText(String.format(MSG_COUNT_FORMAT, current, total));
     }
-    public void addReceiveText(String str) {
-//        int MAX_LENGTH = 100;
-//        StringBuilder sBuilder = new StringBuilder(this.receiveText.getText());
-//        if(sBuilder.length() > MAX_LENGTH) {
-//            sBuilder.delete(0, str.length());
-//        }
-//        sBuilder.append(DateUtil.now()).append(" ").append(str).append("\r");  
-//        this.receiveText.setText(sBuilder.toString());
-    }
     public void cleanNextLineStartLabel() {
         setNextLineStartLabel("");
         setNextLineEndLabel("");
@@ -177,7 +168,13 @@ public class CarMainFrame {
         return frame;
     }
 
+    /**
+     * 启动串口
+     */
     public void relinkSerialPort() {
+        if(serialPortHandler != null) {
+            serialPortHandler.close();
+        }
         serialPortHandler = null;
         serialPortHandler = new SerialPortHandler(CarMainFrame.this);
         serialPortHandler.openSerialPort();
@@ -194,8 +191,6 @@ public class CarMainFrame {
             public void run() {
               currentMsg = DB.getInstance().queryLatestMsg();
               setMsgText(currentMsg);
-              workTimerUtils = new WorkTimerUtils(CarMainFrame.this);
-              workTimerUtils.startTimer(1);
               WorkLineInfo workLineInfo = DB.getInstance().selectWorkLineInfo();
               setWorkLineInfo(workLineInfo);
               relinkSerialPort();
@@ -587,5 +582,8 @@ public class CarMainFrame {
 //        receiveText = new JTextPane();
 //        receiveText.setEditable(false);
 //        centerPanel.add(new JScrollPane(receiveText));
+
+        workTimerUtils = new WorkTimerUtils(CarMainFrame.this);
+        workTimerUtils.startTimer(1);
     }
 }

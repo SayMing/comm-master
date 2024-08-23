@@ -108,28 +108,17 @@ public class SerialPortManager {
 	 */
 	public static void sendToPort(CarMainFrame carMainFrame, SerialPort serialPort, byte[] order) {
 		OutputStream out = null;
+		boolean b = false;
 		try {
 			out = serialPort.getOutputStream();
 			out.write(order);
 			out.flush();
-			
-		    String bodyString = ByteUtils.byteArrayToHexString(order);
-			logger.info("send to port:{}", bodyString);
-			
-			if(carMainFrame != null) {
-			    carMainFrame.addReceiveText("发出：" + bodyString);
-			}
+			b = true;
 		} catch (IOException e) {
-			e.printStackTrace();
+		    logger.error("send serial port data errpr.", e);
 		} finally {
-			try {
-				if (out != null) {
-					out.close();
-					out = null;
-				}
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
+            String bodyString = ByteUtils.byteArrayToHexString(order);
+            logger.info("send to port {} data:{} out:{}", b, bodyString, out);
 		}
 	}
 

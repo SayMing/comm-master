@@ -45,9 +45,9 @@ import gnu.io.SerialPortEventListener;
  * @date 2023-12-08
  */
 public class SerialPortHandler implements SerialPortEventListener{
-    // 串口对象
-    public SerialPort mSerialport;
     private static Logger logger = LoggerFactory.getLogger(SerialPortHandler.class);
+    // 串口对象
+    public SerialPort mSerialport = null;
     private CarMainFrame carMainFrame;
     private final String REG = "55AA([0-9]{2}|0A)";
     private final String NO_WORK_LINE = "无调度";
@@ -76,9 +76,40 @@ public class SerialPortHandler implements SerialPortEventListener{
                 }
             }
         });
+        
         // 支持秒级别定时任务
         CronUtil.setMatchSecond(true);
         CronUtil.start();
+    }
+    
+    /**
+     * 重连串口
+     */
+    public void restartSerialPort() {
+        try {
+            if(mSerialport != null) {
+                mSerialport.close();
+                mSerialport = null;
+            }
+        }catch (Exception e) {
+            logger.error("restart serial port close error.", e);
+        }
+        openSerialPort();
+        sendBeaconInfoDataInit();
+    }
+    
+    /***
+     * 关闭串口
+     */
+    public void close() {
+        CronUtil.stop();
+        try {
+            if(mSerialport != null) {
+                mSerialport.close();
+            }
+        }catch (Exception e) {
+            logger.error("close serial port error.", e);
+        }
     }
     
     @Override
@@ -97,7 +128,6 @@ public class SerialPortHandler implements SerialPortEventListener{
                 List<String> dataHexList = ExpandSplitIter.split(dataHexAll, REG, 100, true, true, true);
                 dataHexList.forEach(dataHex->{
                     String[] dataHexStrs = ByteUtils.formatHexStrings(dataHex);
-                    carMainFrame.addReceiveText("接收：" + dataHex);
                     logger.info("receive dataHexStr:{}", StrUtil.concat(true, dataHexStrs));
                     
                     // 检查CRC16
@@ -167,6 +197,7 @@ public class SerialPortHandler implements SerialPortEventListener{
             }
         }else if (serialPortEvent.getEventType() == SerialPortEvent.BI) { // 10.通讯中断
             logger.error("***通讯中断***");
+            restartSerialPort();
         }
     }
     
@@ -547,5 +578,14 @@ public class SerialPortHandler implements SerialPortEventListener{
     public void receiveCleanBeaconInfo(String[] dataHexStrs) {
         logger.info("清除车载机里面存储的无线信标编号信息数据");
         DB.getInstance().delBeaconAll();
+    }
+    
+    public boolean healthCheck() {
+        boolean status = true;
+        if(mSerialport != null) {
+//            status = mSerialport.isCD();
+            logger.info("now CD:{} CTS:{} DSR:{}", mSerialport.isCD(), mSerialport.isCTS(), mSerialport.isDSR());
+        }
+        return status;
     }
 }
