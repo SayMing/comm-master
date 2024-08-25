@@ -6,8 +6,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.TooManyListenersException;
-
-import javax.swing.JOptionPane;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -52,6 +53,9 @@ public class SerialPortHandler implements SerialPortEventListener{
     private final String REG = "55AA([0-9]{2}|0A)";
     private final String NO_WORK_LINE = "无调度";
     
+    private InputStream inputStream;
+//    private OutputStream outputStream;
+    
     public SerialPortHandler(CarMainFrame carMainFrame) {
         this.carMainFrame = carMainFrame;
         
@@ -81,7 +85,8 @@ public class SerialPortHandler implements SerialPortEventListener{
         CronUtil.setMatchSecond(true);
         CronUtil.start();
     }
-    
+
+    Thread thread = null;
     /**
      * 重连串口
      */
@@ -90,12 +95,31 @@ public class SerialPortHandler implements SerialPortEventListener{
             if(mSerialport != null) {
                 mSerialport.close();
                 mSerialport = null;
+                logger.error("serial port close.");
             }
         }catch (Exception e) {
             logger.error("restart serial port close error.", e);
         }
-        openSerialPort();
-        sendBeaconInfoDataInit();
+        
+        if(thread == null || !thread.isAlive()) {
+            thread = new Thread(()->{
+                boolean restart = true;
+                while (restart) {
+                    String error = openSerialPort();
+                    logger.info("do restart port {} error msg:{}", thread.toString(), error);
+                    if(error == null) {
+                        restart = false;
+                        sendBeaconInfoDataInit();
+                    }
+                    try {
+                        Thread.sleep(500L);
+                    } catch (InterruptedException e) {
+                    }
+                }
+            });
+            thread.start();
+        }
+        
     }
     
     /***
@@ -118,7 +142,7 @@ public class SerialPortHandler implements SerialPortEventListener{
                 serialPortEvent.getEventType(),
                 mSerialport.isCD(), mSerialport.isCTS(), mSerialport.isDSR(), mSerialport.isDTR(), mSerialport.isRI(), mSerialport.isRTS());
         if (serialPortEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
-            try (InputStream inputStream = mSerialport.getInputStream()){
+            try {
                 int availableBytes = inputStream.available();
                 byte[] buffer = new byte[availableBytes];
                 inputStream.read(buffer);
@@ -194,6 +218,7 @@ public class SerialPortHandler implements SerialPortEventListener{
                 
             } catch (IOException e) {
                 logger.error(e.getMessage(), e);
+                restartSerialPort();
             }
         }else if (serialPortEvent.getEventType() == SerialPortEvent.BI) { // 10.通讯中断
             logger.error("***通讯中断***");
@@ -309,7 +334,8 @@ public class SerialPortHandler implements SerialPortEventListener{
      * 打开串口
      * @param commName 串口名称
      */
-    public void openSerialPort() {
+    public String openSerialPort() {
+        String errorMsg = null;
         String commName = ConfigProperties.getCommPort();
         if(StrUtil.isBlank(commName)) {
             commName = "COM2";
@@ -318,25 +344,27 @@ public class SerialPortHandler implements SerialPortEventListener{
         // 检查串口名称是否获取正确
         if (commName == null || commName.equals("")) {
             logger.error("没有搜索到有效串口！");
-            JOptionPane.showMessageDialog(carMainFrame.getFrame(), "没有搜索到有效串口！");
+            errorMsg = "没有搜索到有效串口！";
         } else {
             try {
                 mSerialport = SerialPortManager.openPort(commName, 115200);
                 if(mSerialport == null) {
                     logger.error("启动串口号[{}]失败。", commName);
-                    JOptionPane.showMessageDialog(carMainFrame.getFrame(), "启动串口号["+commName+"]失败。");
+                    errorMsg = "启动串口号["+commName+"]失败。";
                 }else {
                     mSerialport.addEventListener(this);
                     mSerialport.notifyOnDataAvailable(true);
+                    inputStream = mSerialport.getInputStream();
                 }
             } catch (TooManyListenersException | PortInUseException e) {
                 logger.error("串口已被占用【{}】！", commName);
-                JOptionPane.showMessageDialog(carMainFrame.getFrame(), "串口已被占用【"+commName+"】");
+                errorMsg = "串口已被占用【"+commName+"】";
             } catch (Exception e) {
                 logger.error("串口【{}】未找到！", commName);
-                JOptionPane.showMessageDialog(carMainFrame.getFrame(), "串口【"+commName+"】未找到！");
+                errorMsg = "串口【" + commName + "】未找到！";
             }
         }
+        return errorMsg;
     }
     
     /**
@@ -385,6 +413,15 @@ public class SerialPortHandler implements SerialPortEventListener{
         .append(dataHexStrs[5]).append(checkSign);
         logger.info("send sync beacon list result body:{}", sendBodyBuilder.toString());
         
+        SerialPortManager.sendToPort(carMainFrame, mSerialport, CRC16Appender.to(ByteUtils.hexStr2Byte(sendBodyBuilder.toString())));
+    }
+
+    /**
+     * 发送心跳包
+     */
+    public void sendHealthCheck() {
+        StringBuilder sendBodyBuilder = new StringBuilder();
+        sendBodyBuilder.append("55AABB");
         SerialPortManager.sendToPort(carMainFrame, mSerialport, CRC16Appender.to(ByteUtils.hexStr2Byte(sendBodyBuilder.toString())));
     }
     

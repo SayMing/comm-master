@@ -110,10 +110,12 @@ public class SerialPortManager {
 		OutputStream out = null;
 		boolean b = false;
 		try {
-			out = serialPort.getOutputStream();
-			out.write(order);
-			out.flush();
-			b = true;
+	        if(serialPort != null) {
+    			out = serialPort.getOutputStream();
+    			out.write(order);
+    			out.flush();
+    			b = true;
+	        }
 		} catch (IOException e) {
 		    logger.error("send serial port data errpr.", e);
 		} finally {

@@ -157,10 +157,10 @@ public class CarMainFrame {
             setNextLineStartLabel(StrUtil.isNotBlank(workLineInfo.getNextBeaconStartLocation()) ? workLineInfo.getNextBeaconStartLocation() : "");
             setNextLineEndLabel(StrUtil.isNotBlank(workLineInfo.getNextBeaconEndLocation()) ? workLineInfo.getNextBeaconEndLocation() : "");
         }else {
-            setCurrentLineStartLabel("AAAAA");
-            setCurrentLineEndLabel("XXXXX");
-            setNextLineStartLabel("CCCCC");
-            setNextLineEndLabel("DDDDD");
+            setCurrentLineStartLabel("");
+            setCurrentLineEndLabel("");
+            setNextLineStartLabel("");
+            setNextLineEndLabel("");
         }
     }
     
