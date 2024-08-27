@@ -118,8 +118,7 @@ public class DB {
                 for(; i<datas.size();i++) {
                     codeArray[i] = datas.get(i).getId();
                 }
-                String sql = "UPDATE beaconLog SET status = " + BeaconLogStatus.WAIT_RESPONSE +
-                        ", requestId=" + requestId +" WHERE id = ?";
+                String sql = "UPDATE beaconLog SET requestId=" + requestId +" WHERE id = ?";
                 try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
                     for (Long id : codeArray) {
                         preparedStatement.setLong(1, id);
@@ -142,7 +141,7 @@ public class DB {
         try {
             // 将 List 转换为数组
             String sql = "UPDATE beaconLog SET status = " + BeaconLogStatus.SEND +
-                    " WHERE requestId = ? and status = " + BeaconLogStatus.WAIT_RESPONSE;
+                    " WHERE requestId = ?";
             try (PreparedStatement preparedStatement = connection.prepareStatement(sql)) {
                 preparedStatement.setInt(1, requestId);
                 preparedStatement.executeUpdate();
@@ -157,7 +156,7 @@ public class DB {
      * @return
      */
     public List<BeaconLog> selectNotSendBeaconLogList(){
-        String querySQL = "SELECT * FROM BeaconLog WHERE status = " + BeaconLogStatus.NOT_SEND + " limit 255;";
+        String querySQL = "SELECT * FROM BeaconLog WHERE status = " + BeaconLogStatus.NOT_SEND + " limit 50;";
         List<BeaconLog> dataBeaconLogs = new ArrayList<>();
         try (PreparedStatement preparedStatement = connection.prepareStatement(querySQL);
                 ResultSet resultSet = preparedStatement.executeQuery()) {
@@ -167,12 +166,14 @@ public class DB {
                 Integer createTime = resultSet.getInt("createTime");
                 String sourceData = resultSet.getString("sourceData");
                 Integer beaconType = resultSet.getInt("beaconType");
+                Integer requestId = resultSet.getInt("requestId");
                 BeaconLog beaconLog = new BeaconLog();
                 beaconLog.setId(id);
                 beaconLog.setCode(code);
                 beaconLog.setSourceData(sourceData);
                 beaconLog.setCreateTime(createTime);
                 beaconLog.setBeaconType(beaconType);
+                beaconLog.setRequestId(requestId);
                 dataBeaconLogs.add(beaconLog);
             }
         } catch (SQLException e) {

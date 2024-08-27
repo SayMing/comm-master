@@ -2,13 +2,11 @@ package com.yang.serialport.manager;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
 import java.util.TooManyListenersException;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,6 +26,7 @@ import com.yang.serialport.utils.DB;
 import com.yang.serialport.utils.ExpandSplitIter;
 import com.yang.serialport.utils.HEXUtil;
 
+import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.CharsetUtil;
 import cn.hutool.core.util.HexUtil;
@@ -35,6 +34,7 @@ import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.cron.CronUtil;
 import cn.hutool.cron.task.Task;
+import cn.hutool.json.JSONUtil;
 import gnu.io.PortInUseException;
 import gnu.io.SerialPort;
 import gnu.io.SerialPortEvent;
@@ -52,6 +52,8 @@ public class SerialPortHandler implements SerialPortEventListener{
     private CarMainFrame carMainFrame;
     private final String REG = "55AA([0-9]{2}|0A)";
     private final String NO_WORK_LINE = "无调度";
+    private long lastMsgTime = 0L;
+    private long healthCheckTime = 5000L;
     
     private InputStream inputStream;
 //    private OutputStream outputStream;
@@ -75,6 +77,7 @@ public class SerialPortHandler implements SerialPortEventListener{
             public void execute() {
                 try {
                     carMainFrame.nowTime();
+                    healthCheck();
                 }catch (Exception e) {
                     logger.error("update status error:"+e.getMessage(), e);
                 }
@@ -86,6 +89,13 @@ public class SerialPortHandler implements SerialPortEventListener{
         CronUtil.start();
     }
 
+    public void healthCheck() {
+        if(lastMsgTime + healthCheckTime < System.currentTimeMillis()) {
+            restartSerialPort();
+            lastMsgTime = System.currentTimeMillis();
+        }
+    }
+    
     Thread thread = null;
     /**
      * 重连串口
@@ -95,7 +105,7 @@ public class SerialPortHandler implements SerialPortEventListener{
             if(mSerialport != null) {
                 mSerialport.close();
                 mSerialport = null;
-                logger.error("serial port close.");
+                logger.info("serial port close.");
             }
         }catch (Exception e) {
             logger.error("restart serial port close error.", e);
@@ -105,15 +115,15 @@ public class SerialPortHandler implements SerialPortEventListener{
             thread = new Thread(()->{
                 boolean restart = true;
                 while (restart) {
+                    try {
+                        Thread.sleep(1000L);
+                    } catch (InterruptedException e) {
+                    }
                     String error = openSerialPort();
                     logger.info("do restart port {} error msg:{}", thread.toString(), error);
                     if(error == null) {
                         restart = false;
                         sendBeaconInfoDataInit();
-                    }
-                    try {
-                        Thread.sleep(500L);
-                    } catch (InterruptedException e) {
                     }
                 }
             });
@@ -129,7 +139,9 @@ public class SerialPortHandler implements SerialPortEventListener{
         CronUtil.stop();
         try {
             if(mSerialport != null) {
+                mSerialport.removeEventListener();
                 mSerialport.close();
+                mSerialport = null;
             }
         }catch (Exception e) {
             logger.error("close serial port error.", e);
@@ -142,6 +154,7 @@ public class SerialPortHandler implements SerialPortEventListener{
                 serialPortEvent.getEventType(),
                 mSerialport.isCD(), mSerialport.isCTS(), mSerialport.isDSR(), mSerialport.isDTR(), mSerialport.isRI(), mSerialport.isRTS());
         if (serialPortEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
+            lastMsgTime = System.currentTimeMillis();
             try {
                 int availableBytes = inputStream.available();
                 byte[] buffer = new byte[availableBytes];
@@ -180,16 +193,28 @@ public class SerialPortHandler implements SerialPortEventListener{
                     }else if(StrUtil.equals("02", dataHexStr_3)) {// 无线模块向车载机索取信标编号信息
                         //55  AA  02  00  00  CRC16L  CRC16H  （共7字节
                         // 需要向无线模块传送数据
-                        List<BeaconLog> notSendDatas = DB.getInstance().selectNotSendBeaconLogList();
-                        if(notSendDatas == null) {
-                            notSendDatas = new ArrayList<>(0);
+                        List<BeaconLog> allNotSendData = DB.getInstance().selectNotSendBeaconLogList();
+                        if(!allNotSendData.isEmpty()) {
+                            // 分中情况，已经生成过index的，和未生成过index的。
+                            Map<Integer, List<BeaconLog>> groupedData = allNotSendData.stream()
+                                    .collect(Collectors.groupingBy(BeaconLog :: getRequestId));
+
+                            // 打印分组后的数据
+                            groupedData.forEach((requestId, group) -> {
+                                // 分批上传
+                                List<List<BeaconLog>> groups = CollUtil.split(group, 10);
+                                groups.forEach(notSendDatas -> {
+                                    // 当前上传数据批次号
+                                    int currentIndex = requestId == 0 ? DB.getInstance().getCurrentRequestIdAndAdd() : requestId;
+                                    sendBeaconLog(notSendDatas, currentIndex);
+                                    DB.getInstance().updateSendBeaconLog(notSendDatas, currentIndex);
+                                    try {
+                                        Thread.sleep(266L);
+                                    } catch (InterruptedException e) {
+                                    }
+                                });
+                            });
                         }
-//                        if(notSendDatas != null && !notSendDatas.isEmpty()) {
-                            // 当前上传数据批次号
-                            int currentIndex = DB.getInstance().getCurrentRequestIdAndAdd();
-                            sendBeaconLog(notSendDatas, currentIndex);
-                            DB.getInstance().updateSendBeaconLog(notSendDatas, currentIndex);
-//                        }
                     }else if(StrUtil.equals("04", dataHexStr_3)) {
                         // 接收服务器响应 收到信标成功
                         receiveBeaconLogResult04(dataHexStrs);
@@ -312,7 +337,7 @@ public class SerialPortHandler implements SerialPortEventListener{
      * 该信息的XH后面两个00 00修改为车载机编号后，重新校验，其他数据不变，直接转发给服务器，服务器收到应答车载机。  
      */
     public void sendBeaconLog(List<BeaconLog> notSendDatas, int requestId) {
-        logger.info("not send datas:{} requestId:{} obu code:{}", notSendDatas, requestId, ConfigProperties.getObuCodeHex());
+        logger.info("not send datas:{} requestId:{} obu code:{}", JSONUtil.toJsonStr(notSendDatas), requestId, ConfigProperties.getObuCodeHex());
         StringBuilder sendBodyBuilder = new StringBuilder();
         sendBodyBuilder.append("55AA03")
         .append(ByteUtils.int2HexSmallEnd(requestId))
@@ -354,6 +379,7 @@ public class SerialPortHandler implements SerialPortEventListener{
                 }else {
                     mSerialport.addEventListener(this);
                     mSerialport.notifyOnDataAvailable(true);
+                    mSerialport.notifyOnBreakInterrupt(true);
                     inputStream = mSerialport.getInputStream();
                 }
             } catch (TooManyListenersException | PortInUseException e) {
@@ -617,12 +643,4 @@ public class SerialPortHandler implements SerialPortEventListener{
         DB.getInstance().delBeaconAll();
     }
     
-    public boolean healthCheck() {
-        boolean status = true;
-        if(mSerialport != null) {
-//            status = mSerialport.isCD();
-            logger.info("now CD:{} CTS:{} DSR:{}", mSerialport.isCD(), mSerialport.isCTS(), mSerialport.isDSR());
-        }
-        return status;
-    }
 }
