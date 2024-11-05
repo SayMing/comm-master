@@ -1,0 +1,115 @@
+2024-08-26 09:15:04.616 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-08-26 09:15:05.876 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-08-26 09:15:06.002 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1386
+2024-08-26 09:15:06.508 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:507
+2024-08-26 09:15:06.512 [pool-3-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=3, msg=小心驾驶，注意安全, createTime=1724383505556
+2024-08-26 09:15:06.712 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:204
+2024-08-26 09:15:06.712 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-08-26 09:15:06.759 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-08-26 09:15:06.785 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-08-26 09:15:06.788 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:06.788 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:06.788 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@181d22a
+2024-08-26 09:15:19.754 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:3 mSerialport isCD:false, isCTS:false, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:19.756 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:4 mSerialport isCD:false, isCTS:false, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:19.757 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:6 mSerialport isCD:false, isCTS:false, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:35.095 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:3 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:35.096 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:4 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:35.097 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:6 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:44.611 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:3 mSerialport isCD:false, isCTS:false, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:44.612 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:4 mSerialport isCD:false, isCTS:false, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:44.612 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:6 mSerialport isCD:false, isCTS:false, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:46.590 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:3 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:46.591 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:4 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:46.591 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:6 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:49.207 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 09:15:49.234 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-08-26 09:15:49.237 [Thread-6] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1007 time=1724634949
+2024-08-26 11:24:15.925 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-08-26 11:24:17.063 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-08-26 11:24:17.177 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1252
+2024-08-26 11:24:17.739 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:563
+2024-08-26 11:24:17.744 [pool-2-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=3, msg=小心驾驶，注意安全, createTime=1724383505556
+2024-08-26 11:24:17.890 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:151
+2024-08-26 11:24:17.890 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-08-26 11:24:17.999 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-08-26 11:24:18.025 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-08-26 11:24:18.027 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:18.027 [pool-2-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1684037
+2024-08-26 11:24:18.031 [Thread-6] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:24.012 [hutool-cron-2] ERROR c.y.s.manager.SerialPortHandler - serial port close.
+2024-08-26 11:24:25.013 [Thread-7] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-08-26 11:24:25.018 [Thread-7] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-7,5,main] error msg:null
+2024-08-26 11:24:25.018 [Thread-7] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-08-26 11:24:25.019 [Thread-7] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:25.019 [Thread-7] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@5bf7fa
+2024-08-26 11:24:25.024 [Thread-8] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:31.007 [hutool-cron-2] ERROR c.y.s.manager.SerialPortHandler - serial port close.
+2024-08-26 11:24:32.007 [Thread-9] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-08-26 11:24:32.014 [Thread-9] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-9,5,main] error msg:null
+2024-08-26 11:24:32.014 [Thread-9] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-08-26 11:24:32.014 [Thread-9] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:32.014 [Thread-9] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@78d809
+2024-08-26 11:24:32.027 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:34.361 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:3 mSerialport isCD:false, isCTS:false, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:34.361 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:4 mSerialport isCD:false, isCTS:false, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:34.362 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:6 mSerialport isCD:false, isCTS:false, isDSR:false, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:35.095 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:3 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:35.096 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:4 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:35.096 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:6 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:37.852 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:37.863 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-08-26 11:24:37.866 [Thread-10] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1007 time=1724642677
+2024-08-26 11:24:42.168 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:42.169 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-08-26 11:24:42.173 [Thread-10] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1007 time=1724642682
+2024-08-26 11:24:44.671 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:44.671 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-08-26 11:24:44.672 [Thread-10] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1007 time=1724642684
+2024-08-26 11:24:48.436 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:48.436 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-08-26 11:24:48.438 [Thread-10] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1007 time=1724642688
+2024-08-26 11:24:50.640 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:50.640 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-08-26 11:24:50.641 [Thread-10] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1007 time=1724642690
+2024-08-26 11:24:52.879 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:52.879 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-08-26 11:24:52.880 [Thread-10] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1007 time=1724642692
+2024-08-26 11:24:54.760 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:24:54.760 [Thread-10] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA01EF035425
+2024-08-26 11:24:54.761 [Thread-10] INFO  com.yang.serialport.utils.DB - Latest beacon log code=1007 current code=1007 time=1724642694
+2024-08-26 11:25:00.042 [hutool-cron-2] ERROR c.y.s.manager.SerialPortHandler - serial port close.
+2024-08-26 11:25:01.052 [Thread-11] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-08-26 11:25:01.061 [Thread-11] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-11,5,main] error msg:null
+2024-08-26 11:25:01.061 [Thread-11] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-08-26 11:25:01.062 [Thread-11] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:25:01.063 [Thread-11] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1a7fb04
+2024-08-26 11:25:01.065 [Thread-12] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:25:07.033 [hutool-cron-1] ERROR c.y.s.manager.SerialPortHandler - serial port close.
+2024-08-26 11:25:08.034 [Thread-13] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-08-26 11:25:08.041 [Thread-13] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-13,5,main] error msg:null
+2024-08-26 11:25:08.044 [Thread-13] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-08-26 11:25:08.046 [Thread-13] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:25:08.046 [Thread-13] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@aad8eb
+2024-08-26 11:25:08.071 [Thread-14] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:25:14.083 [hutool-cron-0] ERROR c.y.s.manager.SerialPortHandler - serial port close.
+2024-08-26 11:25:15.095 [Thread-15] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-08-26 11:25:15.103 [Thread-15] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-15,5,main] error msg:null
+2024-08-26 11:25:15.103 [Thread-15] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-08-26 11:25:15.103 [Thread-15] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:25:15.103 [Thread-15] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1df1085
+2024-08-26 11:25:15.111 [Thread-16] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:25:21.068 [hutool-cron-0] ERROR c.y.s.manager.SerialPortHandler - serial port close.
+2024-08-26 11:25:22.099 [Thread-17] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-08-26 11:25:22.111 [Thread-17] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-17,5,main] error msg:null
+2024-08-26 11:25:22.113 [Thread-17] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-08-26 11:25:22.114 [Thread-17] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:25:22.114 [Thread-17] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1fac654
+2024-08-26 11:25:22.116 [Thread-18] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:25:28.020 [hutool-cron-2] ERROR c.y.s.manager.SerialPortHandler - serial port close.
+2024-08-26 11:25:29.020 [Thread-19] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-08-26 11:25:29.026 [Thread-19] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-19,5,main] error msg:null
+2024-08-26 11:25:29.026 [Thread-19] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-08-26 11:25:29.027 [Thread-19] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-08-26 11:25:29.027 [Thread-19] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@7335b2
+2024-08-26 11:25:29.031 [Thread-20] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:2 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 

@@ -105,6 +105,23 @@ public class DB {
         return null;
     }
     
+    public boolean isExistedBeaconLog(Integer code, Integer createTime, String sourceData) {
+        String querySQL = "SELECT COUNT(*) > 0 FROM beaconLog WHERE code = ? AND createTime = ? AND sourceData = ?;";
+        try (PreparedStatement preparedStatement = connection.prepareStatement(querySQL)) {
+            preparedStatement.setInt(1, code);
+            preparedStatement.setInt(2, createTime);
+            preparedStatement.setString(3, sourceData);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()) {
+                return resultSet.getBoolean(1);
+            }
+
+        } catch (SQLException e) {
+            logger.error(e.getMessage(), e);
+        }
+        return false;
+    }
+    
     /**
      * 指定信标日志更新等待响应
      * @param datas
@@ -249,6 +266,18 @@ public class DB {
             preparedStatement.setString(2, msg);
             preparedStatement.setLong(3, System.currentTimeMillis());
 
+            preparedStatement.executeUpdate();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        
+        // 最多10条记录
+        String delLimitSql = "DELETE FROM msg \r\n"
+                + "WHERE id NOT IN (\r\n"
+                + "    SELECT id FROM msg ORDER BY createTime desc LIMIT 10\r\n"
+                + ");";
+        try (PreparedStatement preparedStatement = connection.prepareStatement(delLimitSql)) {
             preparedStatement.executeUpdate();
 
         } catch (SQLException e) {

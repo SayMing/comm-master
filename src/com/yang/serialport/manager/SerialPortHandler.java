@@ -214,6 +214,8 @@ public class SerialPortHandler implements SerialPortEventListener{
                                     }
                                 });
                             });
+                        }else {
+                            sendEmpty();
                         }
                     }else if(StrUtil.equals("04", dataHexStr_3)) {
                         // 接收服务器响应 收到信标成功
@@ -328,6 +330,18 @@ public class SerialPortHandler implements SerialPortEventListener{
 ////        }
 ////        return DB.getInstance().countUnload(date);
 //    }
+    
+    /**
+     * 发送空包
+     */
+    public void sendEmpty() {
+        StringBuilder sendBodyBuilder = new StringBuilder();
+        sendBodyBuilder.append("55AA03")
+        .append(ByteUtils.int2HexSmallEnd(0))
+        .append(ByteUtils.hex2LowSort(ConfigProperties.getObuCodeHex()))
+        .append(ByteUtils.int2HexSmallEnd(0));
+        SerialPortManager.sendToPort(carMainFrame, mSerialport, CRC16Appender.to(ByteUtils.hexStr2Byte(sendBodyBuilder.toString())));
+    }
     
     /**
      * 车载机发送信标编号信息给无线模块  
