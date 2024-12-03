@@ -1,0 +1,466 @@
+2024-09-26 22:09:47.825 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start:0
+2024-09-26 22:09:49.274 [main] INFO  com.yang.serialport.utils.DB - 成功连接到SQLite数据库！
+2024-09-26 22:09:49.461 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start run:1640
+2024-09-26 22:09:50.104 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start window over:645
+2024-09-26 22:09:50.127 [pool-3-thread-1] INFO  com.yang.serialport.utils.DB - Latest Msg: id=3, msg=小心驾驶，注意安全, createTime=1727165686555
+2024-09-26 22:09:50.324 [main] INFO  com.yang.serialport.ui.CarMainFrame - main start hook:220
+2024-09-26 22:09:50.324 [main] INFO  com.yang.serialport.ui.CarMainFrame - main end:0
+2024-09-26 22:09:50.487 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:09:50.531 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:09:50.533 [pool-3-thread-1] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@129ec86
+2024-09-26 22:09:51.018 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:09:52.019 [Thread-7] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:09:52.024 [Thread-7] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-7,5,main] error msg:null
+2024-09-26 22:09:52.025 [Thread-7] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:09:52.025 [Thread-7] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@ece67d
+2024-09-26 22:09:53.708 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=25, msg=55666, createTime=1712753544867
+2024-09-26 22:09:54.159 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=27, msg=55666, createTime=1712753545124
+2024-09-26 22:09:54.378 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=29, msg=555, createTime=1712753545383
+2024-09-26 22:09:54.631 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=27, msg=55666, createTime=1712753545124
+2024-09-26 22:09:54.786 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=25, msg=55666, createTime=1712753544867
+2024-09-26 22:09:54.996 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1727165686555
+2024-09-26 22:09:57.012 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:09:58.021 [Thread-9] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:09:58.026 [Thread-9] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-9,5,main] error msg:null
+2024-09-26 22:09:58.026 [Thread-9] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:09:58.027 [Thread-9] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1bec2e9
+2024-09-26 22:10:03.020 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:10:04.022 [Thread-11] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:10:04.029 [Thread-11] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-11,5,main] error msg:null
+2024-09-26 22:10:04.029 [Thread-11] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:10:04.029 [Thread-11] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@17d014b
+2024-09-26 22:10:09.087 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:10:10.099 [Thread-13] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:10:10.105 [Thread-13] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-13,5,main] error msg:null
+2024-09-26 22:10:10.105 [Thread-13] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:10:10.105 [Thread-13] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@3fc614
+2024-09-26 22:10:15.005 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:10:16.006 [Thread-15] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:10:16.013 [Thread-15] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-15,5,main] error msg:null
+2024-09-26 22:10:16.015 [Thread-15] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:10:16.015 [Thread-15] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@60ffb1
+2024-09-26 22:10:20.031 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:10:21.032 [Thread-17] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:10:21.039 [Thread-17] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-17,5,main] error msg:null
+2024-09-26 22:10:21.039 [Thread-17] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:10:21.039 [Thread-17] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1e9c7da
+2024-09-26 22:10:26.015 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:10:27.016 [Thread-19] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:10:27.021 [Thread-19] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-19,5,main] error msg:null
+2024-09-26 22:10:27.021 [Thread-19] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:10:27.021 [Thread-19] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@68aad3
+2024-09-26 22:10:32.027 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:10:33.028 [Thread-21] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:10:33.034 [Thread-21] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-21,5,main] error msg:null
+2024-09-26 22:10:33.034 [Thread-21] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:10:33.034 [Thread-21] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@15c7a85
+2024-09-26 22:10:35.302 [Thread-22] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:10:35.321 [Thread-22] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:10:35.328 [Thread-22] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:10:35.521 [Thread-22] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359835329
+2024-09-26 22:10:40.647 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=27, msg=55666, createTime=1712753545124
+2024-09-26 22:10:41.025 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:10:41.601 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1727165686555
+2024-09-26 22:10:42.026 [Thread-23] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:10:42.033 [Thread-23] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-23,5,main] error msg:null
+2024-09-26 22:10:42.033 [Thread-23] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:10:42.033 [Thread-23] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@57f915
+2024-09-26 22:10:42.163 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=27, msg=55666, createTime=1712753545124
+2024-09-26 22:10:42.619 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=29, msg=555, createTime=1712753545383
+2024-09-26 22:10:42.959 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359835329
+2024-09-26 22:10:43.154 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=31, msg=66优化, createTime=1712753545680
+2024-09-26 22:10:43.331 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=33, msg=fg, createTime=1712753545933
+2024-09-26 22:10:43.533 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=76, createTime=1712753546187
+2024-09-26 22:10:43.923 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=37, msg=各个, createTime=1712753546356
+2024-09-26 22:10:44.140 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=40, msg=发发发, createTime=1712753546700
+2024-09-26 22:10:44.638 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=42, msg=噗噗, createTime=1712753546870
+2024-09-26 22:10:45.991 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=40, msg=发发发, createTime=1712753546700
+2024-09-26 22:10:46.189 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=37, msg=各个, createTime=1712753546356
+2024-09-26 22:10:46.313 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=76, createTime=1712753546187
+2024-09-26 22:10:46.451 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=33, msg=fg, createTime=1712753545933
+2024-09-26 22:10:46.632 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=31, msg=66优化, createTime=1712753545680
+2024-09-26 22:10:46.994 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359835329
+2024-09-26 22:10:47.037 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:10:47.315 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=29, msg=555, createTime=1712753545383
+2024-09-26 22:10:48.002 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359835329
+2024-09-26 22:10:48.038 [Thread-25] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:10:48.055 [Thread-25] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-25,5,main] error msg:null
+2024-09-26 22:10:48.056 [Thread-25] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:10:48.056 [Thread-25] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1cfe3a6
+2024-09-26 22:10:48.771 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=29, msg=555, createTime=1712753545383
+2024-09-26 22:10:49.366 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359835329
+2024-09-26 22:10:53.011 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:10:53.059 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=29, msg=555, createTime=1712753545383
+2024-09-26 22:10:53.520 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359835329
+2024-09-26 22:10:54.011 [Thread-27] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:10:54.017 [Thread-27] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-27,5,main] error msg:null
+2024-09-26 22:10:54.017 [Thread-27] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:10:54.017 [Thread-27] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1227fc4
+2024-09-26 22:10:54.234 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=31, msg=66优化, createTime=1712753545680
+2024-09-26 22:10:54.442 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=33, msg=fg, createTime=1712753545933
+2024-09-26 22:10:54.639 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=76, createTime=1712753546187
+2024-09-26 22:10:54.870 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=37, msg=各个, createTime=1712753546356
+2024-09-26 22:10:58.317 [Thread-28] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:10:58.318 [Thread-28] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:10:58.318 [Thread-28] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:10:58.467 [Thread-28] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359858321
+2024-09-26 22:11:01.741 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=76, createTime=1712753546187
+2024-09-26 22:11:02.029 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=33, msg=fg, createTime=1712753545933
+2024-09-26 22:11:02.424 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=76, createTime=1712753546187
+2024-09-26 22:11:02.611 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=37, msg=各个, createTime=1712753546356
+2024-09-26 22:11:02.874 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=40, msg=发发发, createTime=1712753546700
+2024-09-26 22:11:02.972 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=42, msg=噗噗, createTime=1712753546870
+2024-09-26 22:11:04.027 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:11:04.201 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=40, msg=发发发, createTime=1712753546700
+2024-09-26 22:11:04.347 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=37, msg=各个, createTime=1712753546356
+2024-09-26 22:11:04.511 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=76, createTime=1712753546187
+2024-09-26 22:11:04.674 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=33, msg=fg, createTime=1712753545933
+2024-09-26 22:11:04.837 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=31, msg=66优化, createTime=1712753545680
+2024-09-26 22:11:05.005 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359858321
+2024-09-26 22:11:05.039 [Thread-29] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:11:05.045 [Thread-29] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-29,5,main] error msg:null
+2024-09-26 22:11:05.046 [Thread-29] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:11:05.046 [Thread-29] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@9b4eb5
+2024-09-26 22:11:05.164 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=29, msg=555, createTime=1712753545383
+2024-09-26 22:11:05.367 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=27, msg=55666, createTime=1712753545124
+2024-09-26 22:11:05.457 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1727165686555
+2024-09-26 22:11:06.849 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=27, msg=55666, createTime=1712753545124
+2024-09-26 22:11:07.269 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=29, msg=555, createTime=1712753545383
+2024-09-26 22:11:07.516 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359858321
+2024-09-26 22:11:07.716 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=31, msg=66优化, createTime=1712753545680
+2024-09-26 22:11:07.901 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=33, msg=fg, createTime=1712753545933
+2024-09-26 22:11:08.237 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=76, createTime=1712753546187
+2024-09-26 22:11:08.491 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=37, msg=各个, createTime=1712753546356
+2024-09-26 22:11:08.714 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=40, msg=发发发, createTime=1712753546700
+2024-09-26 22:11:08.997 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=42, msg=噗噗, createTime=1712753546870
+2024-09-26 22:11:10.004 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:11:10.359 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=40, msg=发发发, createTime=1712753546700
+2024-09-26 22:11:10.545 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=37, msg=各个, createTime=1712753546356
+2024-09-26 22:11:10.733 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=76, createTime=1712753546187
+2024-09-26 22:11:10.920 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=33, msg=fg, createTime=1712753545933
+2024-09-26 22:11:11.008 [Thread-31] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:11:11.013 [Thread-31] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-31,5,main] error msg:null
+2024-09-26 22:11:11.013 [Thread-31] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:11:11.013 [Thread-31] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@13ccc49
+2024-09-26 22:11:11.129 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=31, msg=66优化, createTime=1712753545680
+2024-09-26 22:11:11.341 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359858321
+2024-09-26 22:11:11.528 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=29, msg=555, createTime=1712753545383
+2024-09-26 22:11:11.834 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=27, msg=55666, createTime=1712753545124
+2024-09-26 22:11:12.219 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=29, msg=555, createTime=1712753545383
+2024-09-26 22:11:12.434 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359858321
+2024-09-26 22:11:12.626 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=31, msg=66优化, createTime=1712753545680
+2024-09-26 22:11:12.796 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=33, msg=fg, createTime=1712753545933
+2024-09-26 22:11:12.972 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=76, createTime=1712753546187
+2024-09-26 22:11:13.127 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=37, msg=各个, createTime=1712753546356
+2024-09-26 22:11:13.289 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=40, msg=发发发, createTime=1712753546700
+2024-09-26 22:11:13.474 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=42, msg=噗噗, createTime=1712753546870
+2024-09-26 22:11:14.574 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=40, msg=发发发, createTime=1712753546700
+2024-09-26 22:11:14.732 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=37, msg=各个, createTime=1712753546356
+2024-09-26 22:11:14.930 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=76, createTime=1712753546187
+2024-09-26 22:11:15.012 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:11:15.132 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=33, msg=fg, createTime=1712753545933
+2024-09-26 22:11:15.353 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=31, msg=66优化, createTime=1712753545680
+2024-09-26 22:11:15.576 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359858321
+2024-09-26 22:11:16.013 [Thread-33] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:11:16.018 [Thread-33] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-33,5,main] error msg:null
+2024-09-26 22:11:16.018 [Thread-33] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:11:16.018 [Thread-33] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1158304
+2024-09-26 22:11:16.230 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=29, msg=555, createTime=1712753545383
+2024-09-26 22:11:21.011 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:11:22.021 [Thread-35] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:11:22.026 [Thread-35] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-35,5,main] error msg:null
+2024-09-26 22:11:22.026 [Thread-35] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:11:22.027 [Thread-35] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@bfedb9
+2024-09-26 22:11:27.017 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:11:28.018 [Thread-37] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:11:28.024 [Thread-37] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-37,5,main] error msg:null
+2024-09-26 22:11:28.024 [Thread-37] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:11:28.025 [Thread-37] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@cb43a7
+2024-09-26 22:11:33.012 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:11:34.013 [Thread-39] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:11:34.020 [Thread-39] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-39,5,main] error msg:null
+2024-09-26 22:11:34.020 [Thread-39] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:11:34.020 [Thread-39] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@fce80d
+2024-09-26 22:11:39.031 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:11:40.033 [Thread-41] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:11:40.039 [Thread-41] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-41,5,main] error msg:null
+2024-09-26 22:11:40.039 [Thread-41] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:11:40.039 [Thread-41] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1cae8d3
+2024-09-26 22:11:45.009 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:11:46.010 [Thread-43] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:11:46.018 [Thread-43] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-43,5,main] error msg:null
+2024-09-26 22:11:46.018 [Thread-43] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:11:46.018 [Thread-43] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@e3a8a8
+2024-09-26 22:11:51.088 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:11:52.103 [Thread-45] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:11:52.109 [Thread-45] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-45,5,main] error msg:null
+2024-09-26 22:11:52.109 [Thread-45] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:11:52.109 [Thread-45] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1239c69
+2024-09-26 22:11:57.077 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:11:58.139 [Thread-47] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:11:58.146 [Thread-47] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-47,5,main] error msg:null
+2024-09-26 22:11:58.146 [Thread-47] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:11:58.149 [Thread-47] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@ee8476
+2024-09-26 22:12:03.051 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:12:04.060 [Thread-49] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:12:04.066 [Thread-49] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-49,5,main] error msg:null
+2024-09-26 22:12:04.066 [Thread-49] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:12:04.066 [Thread-49] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@12449ce
+2024-09-26 22:12:09.003 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:12:10.003 [Thread-51] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:12:10.008 [Thread-51] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-51,5,main] error msg:null
+2024-09-26 22:12:10.008 [Thread-51] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:12:10.008 [Thread-51] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1397ed9
+2024-09-26 22:12:15.023 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:12:16.024 [Thread-53] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:12:16.030 [Thread-53] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-53,5,main] error msg:null
+2024-09-26 22:12:16.031 [Thread-53] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:12:16.031 [Thread-53] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@fe5d56
+2024-09-26 22:12:17.513 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:12:17.514 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:12:17.514 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:12:17.610 [Thread-54] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359937515
+2024-09-26 22:12:18.925 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:12:18.925 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:12:18.927 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:12:19.066 [Thread-54] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359938927
+2024-09-26 22:12:19.355 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:12:19.356 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:12:19.357 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:12:19.449 [Thread-54] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359939357
+2024-09-26 22:12:19.619 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:12:19.619 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:12:19.620 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:12:19.701 [Thread-54] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359939620
+2024-09-26 22:12:19.731 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:12:19.731 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:12:19.733 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:12:19.820 [Thread-54] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359939735
+2024-09-26 22:12:19.929 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:12:19.930 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:12:19.934 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:12:20.041 [Thread-54] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359939936
+2024-09-26 22:12:20.097 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:12:20.098 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:12:20.098 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:12:20.182 [Thread-54] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359940099
+2024-09-26 22:12:20.298 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:12:20.299 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:12:20.299 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:12:20.379 [Thread-54] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359940300
+2024-09-26 22:12:20.482 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:12:20.483 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:12:20.484 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:12:20.562 [Thread-54] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359940484
+2024-09-26 22:12:20.780 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:12:20.780 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:12:20.781 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:12:20.892 [Thread-54] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359940782
+2024-09-26 22:12:20.966 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:12:20.967 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:12:20.968 [Thread-54] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:12:21.055 [Thread-54] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727359940968
+2024-09-26 22:12:26.012 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:12:27.013 [Thread-55] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:12:27.018 [Thread-55] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-55,5,main] error msg:null
+2024-09-26 22:12:27.018 [Thread-55] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:12:27.018 [Thread-55] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@92fb9d
+2024-09-26 22:12:32.010 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:12:33.024 [Thread-57] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:12:33.032 [Thread-57] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-57,5,main] error msg:null
+2024-09-26 22:12:33.033 [Thread-57] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:12:33.036 [Thread-57] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@19db769
+2024-09-26 22:12:38.007 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:12:39.008 [Thread-59] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:12:39.014 [Thread-59] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-59,5,main] error msg:null
+2024-09-26 22:12:39.015 [Thread-59] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:12:39.015 [Thread-59] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@447ef9
+2024-09-26 22:12:44.005 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:12:45.013 [Thread-61] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:12:45.019 [Thread-61] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-61,5,main] error msg:null
+2024-09-26 22:12:45.019 [Thread-61] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:12:45.019 [Thread-61] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@18d78db
+2024-09-26 22:12:49.058 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:12:50.241 [Thread-63] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:12:50.485 [Thread-63] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-63,5,main] error msg:null
+2024-09-26 22:12:50.485 [Thread-63] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:12:50.485 [Thread-63] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@f064b3
+2024-09-26 22:12:52.401 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=27, msg=55666, createTime=1712753545124
+2024-09-26 22:12:53.247 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1727165686555
+2024-09-26 22:12:54.105 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=27, msg=55666, createTime=1712753545124
+2024-09-26 22:12:55.013 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:12:55.510 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=3, msg=小心驾驶，注意安全, createTime=1727165686555
+2024-09-26 22:12:56.028 [Thread-65] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:12:56.040 [Thread-65] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-65,5,main] error msg:null
+2024-09-26 22:12:56.040 [Thread-65] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:12:56.040 [Thread-65] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@15732da
+2024-09-26 22:13:01.059 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:13:02.066 [Thread-67] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:13:02.077 [Thread-67] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-67,5,main] error msg:null
+2024-09-26 22:13:02.077 [Thread-67] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:13:02.077 [Thread-67] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1ce246b
+2024-09-26 22:13:07.137 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:13:08.141 [Thread-69] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:13:08.149 [Thread-69] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-69,5,main] error msg:null
+2024-09-26 22:13:08.149 [Thread-69] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:13:08.149 [Thread-69] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1e441fc
+2024-09-26 22:13:13.034 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:13:14.037 [Thread-71] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:13:14.053 [Thread-71] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-71,5,main] error msg:null
+2024-09-26 22:13:14.053 [Thread-71] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:13:14.056 [Thread-71] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@d6492b
+2024-09-26 22:13:19.018 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:13:20.019 [Thread-73] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:13:20.027 [Thread-73] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-73,5,main] error msg:null
+2024-09-26 22:13:20.027 [Thread-73] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:13:20.027 [Thread-73] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@a31cc6
+2024-09-26 22:13:24.031 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:13:25.032 [Thread-75] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:13:25.038 [Thread-75] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-75,5,main] error msg:null
+2024-09-26 22:13:25.038 [Thread-75] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:13:25.038 [Thread-75] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@30d9f0
+2024-09-26 22:13:30.056 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:13:31.064 [Thread-77] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:13:31.070 [Thread-77] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-77,5,main] error msg:null
+2024-09-26 22:13:31.070 [Thread-77] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:13:31.070 [Thread-77] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@131827a
+2024-09-26 22:13:36.093 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:13:37.102 [Thread-79] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:13:37.109 [Thread-79] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-79,5,main] error msg:null
+2024-09-26 22:13:37.109 [Thread-79] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:13:37.109 [Thread-79] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@d49362
+2024-09-26 22:13:42.004 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:13:43.004 [Thread-81] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:13:43.010 [Thread-81] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-81,5,main] error msg:null
+2024-09-26 22:13:43.010 [Thread-81] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:13:43.010 [Thread-81] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@178928e
+2024-09-26 22:13:48.005 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:13:49.007 [Thread-83] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:13:49.013 [Thread-83] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-83,5,main] error msg:null
+2024-09-26 22:13:49.013 [Thread-83] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:13:49.013 [Thread-83] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@e303d0
+2024-09-26 22:13:53.028 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:13:54.028 [Thread-85] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:13:54.038 [Thread-85] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-85,5,main] error msg:null
+2024-09-26 22:13:54.038 [Thread-85] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:13:54.038 [Thread-85] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@b149ca
+2024-09-26 22:13:59.079 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:14:00.090 [Thread-87] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:14:00.097 [Thread-87] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-87,5,main] error msg:null
+2024-09-26 22:14:00.097 [Thread-87] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:14:00.098 [Thread-87] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@3a8184
+2024-09-26 22:14:05.018 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:14:06.019 [Thread-89] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:14:06.024 [Thread-89] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-89,5,main] error msg:null
+2024-09-26 22:14:06.024 [Thread-89] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:14:06.024 [Thread-89] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1aa96f3
+2024-09-26 22:14:10.045 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:14:11.047 [Thread-91] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:14:11.052 [Thread-91] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-91,5,main] error msg:null
+2024-09-26 22:14:11.052 [Thread-91] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:14:11.052 [Thread-91] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1120c8e
+2024-09-26 22:14:11.663 [Thread-92] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:14:11.664 [Thread-92] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:14:11.664 [Thread-92] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:14:11.853 [Thread-92] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727360051665
+2024-09-26 22:14:15.724 [Thread-92] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:14:15.724 [Thread-92] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:14:15.724 [Thread-92] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:14:15.809 [Thread-92] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727360055725
+2024-09-26 22:14:16.879 [Thread-92] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:14:16.879 [Thread-92] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333023D0C7C6DAD2BBA3ACD4E7C9CFBAC3A3ACC9CFB0E0BFECC0D6A3ACB0B2C8ABB5DAD2BBA3A1A3A1A0F4
+2024-09-26 22:14:16.879 [Thread-92] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:30#星期一，早上好，上班快乐，安全第一！！
+2024-09-26 22:14:16.997 [Thread-92] INFO  com.yang.serialport.utils.DB - Latest Msg: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727360056880
+2024-09-26 22:14:22.009 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:14:23.013 [Thread-93] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:14:23.018 [Thread-93] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-93,5,main] error msg:null
+2024-09-26 22:14:23.018 [Thread-93] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:14:23.018 [Thread-93] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@8ebe79
+2024-09-26 22:14:25.055 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727360056880
+2024-09-26 22:14:28.009 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:14:29.011 [Thread-95] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:14:29.018 [Thread-95] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-95,5,main] error msg:null
+2024-09-26 22:14:29.018 [Thread-95] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:14:29.018 [Thread-95] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@ca350a
+2024-09-26 22:14:34.008 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:14:35.009 [Thread-97] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:14:35.015 [Thread-97] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-97,5,main] error msg:null
+2024-09-26 22:14:35.015 [Thread-97] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:14:35.015 [Thread-97] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@3cae92
+2024-09-26 22:14:40.026 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:14:41.026 [Thread-99] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:14:41.033 [Thread-99] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-99,5,main] error msg:null
+2024-09-26 22:14:41.033 [Thread-99] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:14:41.033 [Thread-99] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1e03035
+2024-09-26 22:14:46.023 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:14:47.024 [Thread-101] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:14:47.030 [Thread-101] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-101,5,main] error msg:null
+2024-09-26 22:14:47.030 [Thread-101] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:14:47.030 [Thread-101] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1eb1130
+2024-09-26 22:14:52.007 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:14:53.010 [Thread-103] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:14:53.015 [Thread-103] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-103,5,main] error msg:null
+2024-09-26 22:14:53.015 [Thread-103] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:14:53.015 [Thread-103] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@11d0fc9
+2024-09-26 22:14:56.923 [Thread-104] INFO  c.y.s.manager.SerialPortHandler - serialPortEvent:1 mSerialport isCD:true, isCTS:true, isDSR:true, isDTR:false, isRI:false, isRTS:false, 
+2024-09-26 22:14:56.924 [Thread-104] INFO  c.y.s.manager.SerialPortHandler - receive dataHexStr:55AA070100333523C7EBD2C0B4CEB5BDC3BFB8F6D7B0BFF3B5E3D7B0BFF3A3ACC8BBBAF3B5BDD2C0B4CEB5BDB6D4D3A6D0B6BFF3B5E3D0B6BFF3A1A3D0A1D0C4BCDDCABBA3ACD7A2D2E2B0B2C8ABA3A1A3A1F0DE
+2024-09-26 22:14:56.924 [Thread-104] INFO  c.y.s.manager.SerialPortHandler - receiveNotifyData07 body:35#请依次到每个装矿点装矿，然后到依次到对应卸矿点卸矿。小心驾驶，注意安全！！
+2024-09-26 22:14:57.078 [Thread-104] INFO  com.yang.serialport.utils.DB - Latest Msg: id=35, msg=请依次到每个装矿点装矿，然后到依次到对应卸矿点卸矿。小心驾驶，注意安全！！, createTime=1727360096924
+2024-09-26 22:15:02.091 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:15:03.098 [Thread-105] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:15:03.105 [Thread-105] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-105,5,main] error msg:null
+2024-09-26 22:15:03.105 [Thread-105] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:15:03.105 [Thread-105] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1c1ec9e
+2024-09-26 22:15:03.991 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=请依次到每个装矿点装矿，然后到依次到对应卸矿点卸矿。小心驾驶，注意安全！！, createTime=1727360096924
+2024-09-26 22:15:04.780 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=30, msg=星期一，早上好，上班快乐，安全第一！！, createTime=1727360056880
+2024-09-26 22:15:05.487 [AWT-EventQueue-0] INFO  com.yang.serialport.utils.DB - Next Data: id=35, msg=请依次到每个装矿点装矿，然后到依次到对应卸矿点卸矿。小心驾驶，注意安全！！, createTime=1727360096924
+2024-09-26 22:15:08.045 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:15:09.055 [Thread-107] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:15:09.061 [Thread-107] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-107,5,main] error msg:null
+2024-09-26 22:15:09.061 [Thread-107] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:15:09.061 [Thread-107] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@de4d07
+2024-09-26 22:15:14.036 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:15:15.048 [Thread-109] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:15:15.054 [Thread-109] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-109,5,main] error msg:null
+2024-09-26 22:15:15.054 [Thread-109] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:15:15.054 [Thread-109] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@f1bb3b
+2024-09-26 22:15:20.060 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:15:21.065 [Thread-111] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:15:21.071 [Thread-111] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-111,5,main] error msg:null
+2024-09-26 22:15:21.071 [Thread-111] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:15:21.071 [Thread-111] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@2170e7
+2024-09-26 22:15:26.026 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:15:27.035 [Thread-113] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:15:27.041 [Thread-113] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-113,5,main] error msg:null
+2024-09-26 22:15:27.041 [Thread-113] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:15:27.041 [Thread-113] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@3ae9ee
+2024-09-26 22:15:32.012 [hutool-cron-0] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:15:33.013 [Thread-115] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:15:33.019 [Thread-115] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-115,5,main] error msg:null
+2024-09-26 22:15:33.019 [Thread-115] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:15:33.019 [Thread-115] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@35cd88
+2024-09-26 22:15:38.037 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:15:39.059 [Thread-117] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:15:39.090 [Thread-117] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-117,5,main] error msg:null
+2024-09-26 22:15:39.090 [Thread-117] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:15:39.090 [Thread-117] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@6ceef9
+2024-09-26 22:15:44.007 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:15:45.008 [Thread-119] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:15:45.015 [Thread-119] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-119,5,main] error msg:null
+2024-09-26 22:15:45.015 [Thread-119] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:15:45.015 [Thread-119] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@55d7e4
+2024-09-26 22:15:50.051 [hutool-cron-2] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:15:51.062 [Thread-121] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:15:51.067 [Thread-121] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-121,5,main] error msg:null
+2024-09-26 22:15:51.067 [Thread-121] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:15:51.067 [Thread-121] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1cc7d08
+2024-09-26 22:15:56.011 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:15:57.011 [Thread-123] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:15:57.016 [Thread-123] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-123,5,main] error msg:null
+2024-09-26 22:15:57.016 [Thread-123] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:15:57.016 [Thread-123] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1bbf825
+2024-09-26 22:16:02.060 [hutool-cron-1] INFO  c.y.s.manager.SerialPortHandler - serial port close.
+2024-09-26 22:16:03.131 [Thread-125] INFO  c.y.s.manager.SerialPortHandler - 系统链接串口号：COM2
+2024-09-26 22:16:03.140 [Thread-125] INFO  c.y.s.manager.SerialPortHandler - do restart port Thread[Thread-125,5,main] error msg:null
+2024-09-26 22:16:03.140 [Thread-125] INFO  c.y.s.manager.SerialPortHandler - send beacon info data init:55AA090100000000
+2024-09-26 22:16:03.141 [Thread-125] INFO  c.y.s.manager.SerialPortManager - send to port true data:55AA090100000000B25B out:gnu.io.RXTXPort$SerialOutputStream@1a102ed
